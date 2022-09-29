@@ -45,15 +45,11 @@
         padding: 0.5rem 0;
         font-size: 1.5rem;
         font-weight: 500;
-        letter-spacing: 0.1rem;
-        text-transform: uppercase;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: fixed;
         top: 0;
-        left: 0;
-        right: 0;
         z-index: 100;
     }
     .readme{
@@ -63,20 +59,20 @@
         display: none;
     }
     .search{
-        margin-right: 1rem;
+        margin: 0
     }
     .hidden{
         display: flex;
-        width: 3rem;
-        margin: 0 1rem 0 0.3rem;
-        height: 1.6rem;
+        width: 2.4rem;
+        margin: 0 1rem 0 0.2rem;
+        height: 1.4rem;
         position: relative;
         flex-direction: column;
         justify-content: space-between;
     }
     .hidden .hid{
-        width: 90%;
+        width: 80%;
         background-color: rgb(255, 255, 255);
-        height: 4px;
+        height: 3px;
     }
 }

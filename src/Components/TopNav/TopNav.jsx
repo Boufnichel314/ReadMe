@@ -63,7 +63,7 @@ export default function TopNav() {
       transition: 'all 0.5s ease-in-out',
       /*make some rotation*/
       transform: 'rotate(90deg)',
-      marginTop: '1rem',
+      marginTop: '0.7rem',
     },
     {
       display : 'none',
@@ -71,7 +71,7 @@ export default function TopNav() {
     {
       // transition: 'all 0.5s ease-in-out',
       position : 'absolute',
-      top : '1rem',
+      top : '0.7rem',
       transition: 'all 0.3s ease-in-out'
     }
   ]
