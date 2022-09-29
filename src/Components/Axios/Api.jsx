@@ -9,6 +9,7 @@ export default function Api(props) {
         .then(res=>setData(res.data.items))
         .catch(err=>console.log(err))
 }
+console.log(data)
 useEffect(() => {
     searching();
   }, [search]);

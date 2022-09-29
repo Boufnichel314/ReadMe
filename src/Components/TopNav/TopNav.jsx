@@ -57,11 +57,10 @@ export default function TopNav() {
   const [searchh, setSearchh] = useState('');
   const [onKeyPress, setOnKeyPress] = useState('');
   const [style, setStyle] = useState([]);
+  const [toggle, setToggle] = useState(true);
   const newStyle = [
     {
-      /*make some transation*/
       transition: 'all 0.5s ease-in-out',
-      /*make some rotation*/
       transform: 'rotate(90deg)',
       marginTop: '0.7rem',
     },
@@ -69,7 +68,6 @@ export default function TopNav() {
       display : 'none',
     },
     {
-      // transition: 'all 0.5s ease-in-out',
       position : 'absolute',
       top : '0.7rem',
       transition: 'all 0.3s ease-in-out'
@@ -78,12 +76,20 @@ export default function TopNav() {
   const handleStyleChange = () => {
     setStyle(newStyle);
   };
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+  const handleClick = () => {
+    handleToggle();
+    toggle ? handleStyleChange() : setStyle([{transition: 'all 0.5s ease-in-out'}]);
+  };
+  console.log(toggle);
   return (
     <div className='TopBar'>
         <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar className='navbar'>
-        <div className="hidden" onClick={handleStyleChange}>
+        <div className="hidden" onClick={handleClick}>
           <div className="hid" style={style[0]}></div>
           <div className="hid" style={style[1]}></div>
           <div className="hid" style={style[2]}></div>
