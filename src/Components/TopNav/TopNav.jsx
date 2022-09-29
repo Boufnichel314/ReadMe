@@ -11,6 +11,7 @@ import InputBase from '@mui/material/InputBase';
 // import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
+import { useNavigate } from 'react-router-dom';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -58,6 +59,17 @@ export default function TopNav() {
   const [onKeyPress, setOnKeyPress] = useState('');
   const [style, setStyle] = useState([]);
   const [toggle, setToggle] = useState(true);
+  const [value, setValue] = useState(0);
+  const navigate = useNavigate();
+  React.useEffect(() => { 
+    if(value === 0) navigate("/");
+    if(value === 1) navigate("/contact");
+    if(value === 2) navigate("/Offers");
+  }, [value]);
+  const handleNavigate = (value) => {
+    setValue(value);
+  };
+  /////////////////////////////////////////////
   const newStyle = [
     {
       transition: 'all 0.5s ease-in-out',
@@ -96,9 +108,9 @@ export default function TopNav() {
         </div>
             <div className="readme">Readme</div>
             <div className="navigation">
-              <div className="nav">الرئيسية</div>
-              <div className="nav">اتصل بنا</div>
-              <div className="nav">العروض</div>
+              <div className="nav" onClick={() => {handleNavigate(0)}}>الرئيسية</div>
+              <div className="nav" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
+              <div className="nav" onClick={() => {handleNavigate(2)}}>العروض</div>
             </div>
           <Search className='search'>
             <SearchIconWrapper>

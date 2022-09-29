@@ -37,6 +37,12 @@
 .hidden{
     display: none;
 }
+.nav{
+    cursor: pointer;
+}
+.nav:hover{
+    color: #a2b649;
+}
 
 /* Language: css */
 /*media query for mobile devices*/
