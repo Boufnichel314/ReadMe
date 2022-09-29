@@ -9,9 +9,6 @@ export default function Details({bookName,bookAuthor,bookImg}) {
         <div className="title">
         <h1 className='detailsTitle'>{bookName}</h1>
         </div>
-        {/* <div className="author">
-        <h1>{bookAuthor}</h1>
-        </div> */}
     </div>
   )
 }

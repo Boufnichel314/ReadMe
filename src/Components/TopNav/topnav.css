@@ -16,12 +16,6 @@
     z-index: 100;
 }
 .readme{
-    /* color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    margin-left: 1rem; */
     background-image: url('../../images/README.png');
     background-size: cover;
     background-position: center;
