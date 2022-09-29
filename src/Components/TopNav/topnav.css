@@ -16,12 +16,19 @@
     z-index: 100;
 }
 .readme{
-    color: #fff;
+    /* color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
-    margin-left: 1rem;
+    margin-left: 1rem; */
+    background-image: url('../../images/README.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
 }
 .navigation-pc{
     display: flex;
@@ -115,4 +122,45 @@
         background-color: #a2b649;
         color: #fff;
     }
+    .icons{
+        width: 100%;
+        height: 10rem;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .logo-mobile{
+        background-image: url('../../images/README.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 0.2rem;
+        position: absolute;
+        left:0.5rem;
+        bottom: 0.3rem;
+        z-index: 100;
+    }
+    .social{
+        background-color: #eeb93b;
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 1rem 1rem 0;
+        margin-left: 3.4rem;
+        margin-top: 0.7rem;
+    }
+    .social h4{
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        color: #fff;
+        padding-left: 3px;
+    }
+    
 }

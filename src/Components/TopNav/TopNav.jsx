@@ -5,14 +5,11 @@ import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-// import IconButton from '@mui/material/IconButton';
-// import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
-// import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
-
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -123,7 +120,8 @@ export default function TopNav() {
           <div className="hid" style={style[1]}></div>
           <div className="hid" style={style[2]}></div>
         </div>
-            <div className="readme">Readme</div>
+            <div className="readme">
+            </div>
             <div className="navigation-pc">
               <div className="nav-pc" onClick={() => {handleNavigate(0)}}>الرئيسية</div>
               <div className="nav-pc" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
@@ -147,8 +145,8 @@ export default function TopNav() {
               <div className="nav-pc" onClick={() => {handleNavigate(2); handleClick()}}>العروض</div>
               </div>
               <div className="icons">
-                <div className="icon">Readme</div>
-
+                <div className="logo-mobile"></div>
+                <div className="social"><h4>@Readme314</h4></div>
               </div>
 
         </div>
