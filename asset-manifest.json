@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Readme/static/css/main.42321140.css",
+    "main.js": "/Readme/static/js/main.69ca5166.js",
+    "index.html": "/Readme/index.html",
+    "main.42321140.css.map": "/Readme/static/css/main.42321140.css.map",
+    "main.69ca5166.js.map": "/Readme/static/js/main.69ca5166.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42321140.css",
+    "static/js/main.69ca5166.js"
+  ]
+}
