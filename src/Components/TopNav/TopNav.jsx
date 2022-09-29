@@ -60,6 +60,7 @@ export default function TopNav() {
   const [style, setStyle] = useState([]);
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState(0);
+  const [mobilestyle, setMobilestyle] = useState([{display: 'none'}]);
   const navigate = useNavigate();
   React.useEffect(() => { 
     if(value === 0) navigate("/");
@@ -69,6 +70,7 @@ export default function TopNav() {
   const handleNavigate = (value) => {
     setValue(value);
   };
+  console.log(toggle);
   /////////////////////////////////////////////
   const newStyle = [
     {
@@ -85,6 +87,18 @@ export default function TopNav() {
       transition: 'all 0.3s ease-in-out'
     }
   ]
+  const trueMobileStyle = [
+    {
+      display: 'flex'
+    }]
+  const falseMobileStyle = [
+    {
+      display: 'none',
+      opacity: 0,
+      transition: "opacity .3s ease-in-out, transform .3s ease-in-out",
+      animation: "hide 2s",
+	    transition: "opacity 2s",
+    }]
   const handleStyleChange = () => {
     setStyle(newStyle);
   };
@@ -94,6 +108,9 @@ export default function TopNav() {
   const handleClick = () => {
     handleToggle();
     toggle ? handleStyleChange() : setStyle([{transition: 'all 0.5s ease-in-out'}]);
+    toggle ? setMobilestyle(trueMobileStyle) : setMobilestyle(falseMobileStyle);
+    
+
   };
   console.log(toggle);
   return (
@@ -107,10 +124,10 @@ export default function TopNav() {
           <div className="hid" style={style[2]}></div>
         </div>
             <div className="readme">Readme</div>
-            <div className="navigation">
-              <div className="nav" onClick={() => {handleNavigate(0)}}>الرئيسية</div>
-              <div className="nav" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
-              <div className="nav" onClick={() => {handleNavigate(2)}}>العروض</div>
+            <div className="navigation-pc">
+              <div className="nav-pc" onClick={() => {handleNavigate(0)}}>الرئيسية</div>
+              <div className="nav-pc" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
+              <div className="nav-pc" onClick={() => {handleNavigate(2)}}>العروض</div>
             </div>
           <Search className='search'>
             <SearchIconWrapper>
@@ -123,6 +140,18 @@ export default function TopNav() {
             />
           </Search>
         </Toolbar>
+        <div className="navigation-mobile" style={mobilestyle[0]}>
+              <div className="names">
+              <div className="nav-pc" onClick={() => {handleNavigate(0); handleClick()}}>الرئيسية</div>
+              <div className="nav-pc" onClick={() => {handleNavigate(1); handleClick()}}>اتصل بنا</div>
+              <div className="nav-pc" onClick={() => {handleNavigate(2); handleClick()}}>العروض</div>
+              </div>
+              <div className="icons">
+                <div className="icon">Readme</div>
+
+              </div>
+
+        </div>
       </AppBar>
     </Box>
     {onKeyPress === 'Enter' ? <Api searchValue={searchh} /> : null}
