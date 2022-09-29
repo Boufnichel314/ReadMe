@@ -1,11 +1,17 @@
 import React from 'react'
-
-export default function Details({bookName,bookYear,bookImg}) {
+import './details.css'
+export default function Details({bookName,bookAuthor,bookImg}) {
   return (
-    <div>
-        <h1>{bookName}</h1>
-        <h1>{bookYear}</h1>
-        <img src={bookImg} alt="book"/>
+    <div className='details'>
+        <div className="image">
+        <img className='detailsImg' src={bookImg} alt="book"/>
+        </div>
+        <div className="title">
+        <h1 className='detailsTitle'>{bookName}</h1>
+        </div>
+        {/* <div className="author">
+        <h1>{bookAuthor}</h1>
+        </div> */}
     </div>
   )
 }

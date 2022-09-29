@@ -56,15 +56,37 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function TopNav() {
   const [searchh, setSearchh] = useState('');
   const [onKeyPress, setOnKeyPress] = useState('');
+  const [style, setStyle] = useState([]);
+  const newStyle = [
+    {
+      /*make some transation*/
+      transition: 'all 0.5s ease-in-out',
+      /*make some rotation*/
+      transform: 'rotate(90deg)',
+      marginTop: '1rem',
+    },
+    {
+      display : 'none',
+    },
+    {
+      // transition: 'all 0.5s ease-in-out',
+      position : 'absolute',
+      top : '1rem',
+      transition: 'all 0.3s ease-in-out'
+    }
+  ]
+  const handleStyleChange = () => {
+    setStyle(newStyle);
+  };
   return (
     <div className='TopBar'>
         <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar className='navbar'>
-        <div className="hidden">
-          <div className="hid"></div>
-          <div className="hid"></div>
-          <div className="hid"></div>
+        <div className="hidden" onClick={handleStyleChange}>
+          <div className="hid" style={style[0]}></div>
+          <div className="hid" style={style[1]}></div>
+          <div className="hid" style={style[2]}></div>
         </div>
             <div className="readme">Readme</div>
             <div className="navigation">

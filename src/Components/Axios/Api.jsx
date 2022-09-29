@@ -13,7 +13,7 @@ useEffect(() => {
     searching();
   }, [search]);
   return (
-    <div>
+    <div style={{display:'flex', flexWrap:'wrap', justifyContent:'space-around', backgroundColor:'black'}}>
       {
         data.map(book => {
                 try{
@@ -21,10 +21,8 @@ useEffect(() => {
                 <Details
                     key={book.id}
                     bookName={book.volumeInfo.title}
-                    bookYear={book.volumeInfo.publishedDate}
-                    bookDesc={book.volumeInfo.description}
-                    bookLink={book.volumeInfo.infoLink}
                     bookImg={book.volumeInfo.imageLinks.smallThumbnail}
+                    bookAuthor={book.volumeInfo.authors}
                 />
                 )}
                 catch(err) {
