@@ -161,12 +161,12 @@
         top: 0;
     }
     .home-title .title p{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         position: absolute;
         top: 9rem;
     }
     .home-title .title p span{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
     .home-img{
         width: 100%;
@@ -185,11 +185,11 @@
         height: 88vh;
     }
     .home-title .title p{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         position: absolute;
         top: 9rem;
     }
     .home-title .title p span{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 }
