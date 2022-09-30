@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.1af1dd93.css",
-    "main.js": "/Readme/static/js/main.384c587f.js",
+    "main.css": "/Readme/static/css/main.986b3fde.css",
+    "main.js": "/Readme/static/js/main.b4b442d4.js",
     "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
     "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
     "static/media/README.png": "/Readme/static/media/README.79c8262419135b850c9d.png",
+    "static/media/237350792_591694878876180__n.jpg": "/Readme/static/media/237350792_591694878876180_1370761944819857030_n.35a6ec3d918674ad6bfc.jpg",
     "index.html": "/Readme/index.html",
-    "main.1af1dd93.css.map": "/Readme/static/css/main.1af1dd93.css.map",
-    "main.384c587f.js.map": "/Readme/static/js/main.384c587f.js.map"
+    "main.986b3fde.css.map": "/Readme/static/css/main.986b3fde.css.map",
+    "main.b4b442d4.js.map": "/Readme/static/js/main.b4b442d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af1dd93.css",
-    "static/js/main.384c587f.js"
+    "static/css/main.986b3fde.css",
+    "static/js/main.b4b442d4.js"
   ]
 }
