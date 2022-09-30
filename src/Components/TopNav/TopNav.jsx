@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './topnav.css'
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
@@ -9,6 +9,8 @@ import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
+import Home from '../../Pages/Home/Home';
+import { useDispatch, useSelector } from 'react-redux';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -58,15 +60,18 @@ export default function TopNav() {
   const [value, setValue] = useState(0);
   const [mobilestyle, setMobilestyle] = useState([{display: 'none'}]);
   const navigate = useNavigate();
-  React.useEffect(() => { 
+  useEffect(() => { 
     if(value === 0) navigate("/");
     if(value === 1) navigate("/contact");
     if(value === 2) navigate("/Offers");
   }, [value]);
   const handleNavigate = (value) => {
     setValue(value);
+    setOnKeyPress('hhh');
   };
-  console.log(toggle);
+  useEffect(() =>
+  dispatch(login), [handleNavigate]);
+
   /////////////////////////////////////////////
   const newStyle = [
     {
@@ -108,7 +113,11 @@ export default function TopNav() {
     
 
   };
-  console.log(toggle);
+///////////////////Testing////////////////////////////////
+const dispatch = useDispatch();
+const login = () => {dispatch({ type: 'SET_USER', payload: onKeyPress }) }
+const state = useSelector( state => state.userReducer.username );
+if(onKeyPress === 'Enter') dispatch(login);
   return (
     <div className='TopBar'>
         <Box sx={{ flexGrow: 1 }}>

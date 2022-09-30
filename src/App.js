@@ -6,8 +6,11 @@ import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import Offers from './Pages/Offers/Offers';
 import { AnimatePresence } from "framer-motion";
+import store from './store.jsx';
+import { Provider } from 'react-redux';
 function App() {
   return (
+    <Provider store = {store}>
     <BrowserRouter>
     <TopNav/>
       <div className="App">
@@ -22,6 +25,7 @@ function App() {
       </Container>      
     </div>
     </BrowserRouter>
+    </Provider>
   )
 }
 

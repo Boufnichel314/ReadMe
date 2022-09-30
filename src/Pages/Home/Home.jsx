@@ -1,12 +1,21 @@
 import { useState } from 'react'
+import { useSelector } from 'react-redux'
 import AnimatedPages from '../../Components/AnimatedPages'
-import ImageItem from '../../Components/ImageItem/ImageItem';
-import img from '../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg'
 import './home.css'
 export default function Home() {
+const state = useSelector( state => state.userReducer.username )
+const style = {
+  display: 'flex',
+}
+if(state === 'Enter'){
+  style.display = 'none'
+}
+else{
+  style.display = 'flex'
+}
   return (
     <AnimatedPages>
-    <div className='containerr home'>
+    <div className='containerr home' style={style}>
       <div className="home-container">
       <div className="home-title">
           <div className="title">
