@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
 import AnimatedPages from '../../Components/AnimatedPages'
+import Categories from '../../Components/Categories/Categories'
 import './home.css'
 export default function Home() {
 const state = useSelector( state => state.userReducer.username )
@@ -27,6 +28,9 @@ else{
         <img className='img' src={require('../../images/lastdost2.png')}  alt="Dostoevsky"/>
         </div>
       </div>
+    </div>
+    <div className="categories" style={style}>
+    <Categories/>
     </div>
     </AnimatedPages>
   )
