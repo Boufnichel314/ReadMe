@@ -8,8 +8,14 @@ export default function Home() {
     <AnimatedPages>
     <div className='containerr home'>
       <div className="home-container">
+      <div className="home-title">
+          <div className="title">
+            <h1>ReadMe</h1>
+            <p> <span> ريدمي </span>هي مكتبة لبيع كل الكتب بالعربية <br /> والفرنسية و الانجليزية و في جميع المدن المغربية</p>
+          </div>
+        </div>
         <div className="home-img">
-        {/* <img className='img' src={require('../../images/fyodor.png')}  alt="Dostoevsky"/> */}
+        <img className='img' src={require('../../images/lastdost2.png')}  alt="Dostoevsky"/>
         </div>
       </div>
     </div>

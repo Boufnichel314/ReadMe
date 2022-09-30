@@ -6,26 +6,190 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+.containerr{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .home{
-    background-image: url('../../images/Librarybg.jpg');
+    background-image: url('../../images/lib2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 89vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    /* align-items: center; */
 }
-/* .home-container{
-    border: 2px solid black;
-    width: 30%;
+.home-container{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .home-img{
-    border: 2px solid red;
-    width: 80%;}
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;}
     
 .home-img img{
-    width: 90%;
-    height: 100%;
-    border: 2px solid green;
-    border-radius: 50%;
-    background-color: #a8b2bb;
-} */
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid green; */
+}
+.home-title{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.home-title .title{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.home-title .title h1{
+    font-size: 11rem;
+    color: #f9e08c;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+    font-weight: 600;
+    /* border: 2px solid green */
+}
+.home-title .title p{
+    font-size: 4rem;
+    color: #e8e8e6;
+    text-align: center;
+    font-family: 'Vibes', cursive;
+    font-weight: 400;
+    /* border: 2px solid pink; */
+    
+}
+.home-title .title p span{
+    font-size: 3.5rem;
+    color: #f9e08c;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-weight: 400;
+}
+/*MEdia Queries*/
+@media screen and (max-width: 1312px){
+    .home{
+        height: 100vh;
+    }
+    .home-title .title h1{
+        font-size: 9rem;
+    }
+    .home-title .desc p{
+        font-size: 3rem;
+    }
+    .home-title .desc p span{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .home{
+        height: 100vh;
+    }
+    .home-title .title h1{
+        font-size: 7rem;
+    }
+    .home-title .desc p{
+        font-size: 2rem;
+    }
+    .home-title .desc p span{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 414px){
+    .home{
+        height: 90vh;
+    }
+    .home-container{
+        flex-direction: column-reverse;
+    }
+    .home-title .title h1{
+        font-size: 3rem;
+        position: absolute;
+        top: 0;
+    }
+    .home-title .title p{
+        font-size: 2rem;
+        position: absolute;
+        top: 9rem;
+    }
+    .home-title .title p span{
+        font-size: 2rem;
+    }
+    .home-img{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 1rem;
+    }
+    .home-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 374px){
+    .home{
+        height: 90vh;
+    }
+    .home-container{
+        flex-direction: column-reverse;
+    }
+    .home-title .title h1{
+        font-size: 3rem;
+        position: absolute;
+        top: 0;
+    }
+    .home-title .title p{
+        font-size: 1.9rem;
+        position: absolute;
+        top: 9rem;
+    }
+    .home-title .title p span{
+        font-size: 1.9rem;
+    }
+    .home-img{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 1rem;
+    }
+    .home-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media screen and (width: 375px){
+    .home{
+        height: 88vh;
+    }
+    .home-title .title p{
+        font-size: 1.8rem;
+        position: absolute;
+        top: 9rem;
+    }
+    .home-title .title p span{
+        font-size: 1.8rem;
+    }
+}
