@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.6482c2e3.css",
-    "main.js": "/Readme/static/js/main.c6ad402d.js",
+    "main.css": "/Readme/static/css/main.3bf1329c.css",
+    "main.js": "/Readme/static/js/main.cf902a19.js",
+    "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
+    "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
     "static/media/README.png": "/Readme/static/media/README.79c8262419135b850c9d.png",
     "static/media/237350792_591694878876180__n.jpg": "/Readme/static/media/237350792_591694878876180_1370761944819857030_n.35a6ec3d918674ad6bfc.jpg",
-    "static/media/Librarybg.jpg": "/Readme/static/media/Librarybg.0ae66282f7ae0d63a004.jpg",
     "index.html": "/Readme/index.html",
-    "main.6482c2e3.css.map": "/Readme/static/css/main.6482c2e3.css.map",
-    "main.c6ad402d.js.map": "/Readme/static/js/main.c6ad402d.js.map"
+    "main.3bf1329c.css.map": "/Readme/static/css/main.3bf1329c.css.map",
+    "main.cf902a19.js.map": "/Readme/static/js/main.cf902a19.js.map"
   },
   "entrypoints": [
-    "static/css/main.6482c2e3.css",
-    "static/js/main.c6ad402d.js"
+    "static/css/main.3bf1329c.css",
+    "static/js/main.cf902a19.js"
   ]
 }
