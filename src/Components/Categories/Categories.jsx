@@ -4,6 +4,11 @@ import Dostoevsky from './Dostoevsky/Dostoevsky'
 import dost from '../Categories/Dostoevsky/images/dostoevsky/dostoevsky_photo.jpg'
 import Agatha from '../Categories/Dostoevsky/images/Agatha/Agatha_Christie.png'
 import Goerge from './Dostoevsky/images/George Orwell/Goerge.jpg'
+import Jules from './Dostoevsky/images/jules verne/Julses.jpg'
+import Coelho from './Dostoevsky/images/paulo coelho/Coelho.jpg'
+import Philosophie from './Dostoevsky/images/philosophie/الفلسفة-اليونانية-768x515.jpg'
+import Self from './Dostoevsky/images/self-development/self.jpg'
+/////////////////////////////////
 import Crime from './Dostoevsky/images/dostoevsky/crime and punishment.jpg'
 import Brothers from './Dostoevsky/images/dostoevsky/the brothers karamazov.jpg'
 import Idiot from './Dostoevsky/images/dostoevsky/Idiot.jpg'
@@ -25,7 +30,7 @@ import Murder from './Dostoevsky/images/Agatha/The Murder of Roger Ackroyd.jpg'
 import Mort from './Dostoevsky/images/Agatha/Mort sur le Nil.jpeg'
 import Poirot from './Dostoevsky/images/Agatha/A.B.C. contre Poirot.jpg'
 import Mystery from './Dostoevsky/images/Agatha/The Mystery of the Blue Train.jpg'
-/////////////////////////
+//////////////////////////////////
 import مزرعة from './Dostoevsky/images/George Orwell/مزرعة الحيوان.jfif'
 import Down from './Dostoevsky/images/George Orwell/down-and-out-in-paris-and-london.jpg'
 import Deche from './Dostoevsky/images/George Orwell/Dans-la-deche-a-Paris-et-a-Londres.jpg'
@@ -37,6 +42,63 @@ import الف from './Dostoevsky/images/George Orwell/ألف وتسعمائة و
 import hommage from './Dostoevsky/images/George Orwell/Hommage à la catalogne.jpg'
 import keep from './Dostoevsky/images/George Orwell/keep-the-aspidistra-flying.jpg'
 import homage from './Dostoevsky/images/George Orwell/homage-to-catalonia.jpg'
+////////////////////////////////////
+import Cinq from './Dostoevsky/images/jules verne/Cinq Semaines En Ballon.jpg'
+import Terre from './Dostoevsky/images/jules verne/De la Terre à la Lune.jpg'
+import Lune from './Dostoevsky/images/jules verne/Autour de la Lune.jpg'
+import Enfants from './Dostoevsky/images/jules verne/Les Enfants du capitaine Grant.jpg'
+import captaine from './Dostoevsky/images/jules verne/Un capitaine de quinze ans.jpg'
+import Michel from './Dostoevsky/images/jules verne//Michel Strogoff.jfif'
+import Ile from './Dostoevsky/images/jules verne/Ile.jpg'
+import Vingt from './Dostoevsky/images/jules verne/Vingt Mille Lieues sous les mers.jpg'
+import Voyage from './Dostoevsky/images/jules verne/Voyage au centre de la Terre.jpg'
+///////////////////////////////////////
+import Brida from './Dostoevsky/images/paulo coelho/Brida.jpg'
+import Alchimiste from './Dostoevsky/images/paulo coelho/alchimiste.jpg'
+import Eleven from './Dostoevsky/images/paulo coelho/Eleven Minutes.jpg'
+import الزهير from './Dostoevsky/images/paulo coelho/الزهير.jpg'
+import Devil from './Dostoevsky/images/paulo coelho/The Devil and Miss Prym.jpg'
+import الخيميائي from './Dostoevsky/images/paulo coelho/الخيميائي.jpg'
+import Veronika from './Dostoevsky/images/paulo coelho/Veronika Decides to Die.jpg'
+import الزانية from './Dostoevsky/images/paulo coelho/الزانية.png'
+import Mourir from './Dostoevsky/images/paulo coelho/Veronika décide de mourir.jpg'
+import River from './Dostoevsky/images/paulo coelho//By the River Piedra I Sat Down and Wept.jpg'
+import فيرونيكا from './Dostoevsky/images/paulo coelho/فيرونيكا تقرر أن تموت.jpg'
+import Bord from './Dostoevsky/images/paulo coelho/sur le bord de la rivière piedra.jpeg'
+import Alchemist from './Dostoevsky/images/paulo coelho/The Alchemist.jpeg'
+////////////////////////////////////////////////////////
+import زرادشت from './Dostoevsky/images/philosophie/هكذا تكلم زرادشت.jpg'
+import تاملات from './Dostoevsky/images/philosophie/التأملات.jpg'
+import محاورات from './Dostoevsky/images/philosophie/محاورات السعادة و الشقاء.jpg'
+import الخيروالشر from './Dostoevsky/images/philosophie/ما وراء الخير والشر.jpg'
+import رسائل from './Dostoevsky/images/philosophie/رسائل من المنفى.jpg'
+import تاريخ from './Dostoevsky/images/philosophie/تاريخ الفلسفة الغربية.jpg'
+import اليونانية from './Dostoevsky/images/philosophie/الفلسفة-اليونانية-768x515.jpg'
+import الاخلاق from './Dostoevsky/images/philosophie/الأخلاق النيقوماخية.jpg'
+///////////////////////////////////////////////////////
+import homme from './/Dostoevsky/images/self-development/homme.png'
+import عادات from './/Dostoevsky/images/self-development/7 عادات للناس الأكثر فعالية.jpg'
+import regles from './/Dostoevsky/images/self-development/12 règles pour une vie.jpg'
+import hurt from './/Dostoevsky/images/self-development/hurt.jpg'
+import comment from './/Dostoevsky/images/self-development/Comment se faire des amis.jpg'
+import التفكير from './/Dostoevsky/images/self-development/قوة التفكير الايجابي.jpg'
+import pouvoir from './/Dostoevsky/images/self-development/Le Pouvoir de la vulnérabilité.jpg'
+import forward from './/Dostoevsky/images/self-development/Failing Forward.jpg'
+import richest from './/Dostoevsky/images/self-development/The richest man in Babylon.jpg'
+import اسرار from './/Dostoevsky/images/self-development/اسرار عقل المليونير.jpg'
+import puissance from './/Dostoevsky/images/self-development/La puissance de la pensée positive.jpg'
+import magic from './/Dostoevsky/images/self-development/Big Magic.jpg'
+import الجبن from './/Dostoevsky/images/self-development/من حرك قطعة الجبن الخاصة بي؟.jpg'
+import workweek from './/Dostoevsky/images/self-development/The 4-Hour Workweek.jpg'
+import habitude from './/Dostoevsky/images/self-development/Le pouvoir des habitudes.jpg'
+import الفستق from './/Dostoevsky/images/self-development/نظرية الفستق.jpg'
+import habits from './/Dostoevsky/images/self-development/the 7 habits of highly effective people.jpg'
+import semaine from './/Dostoevsky/images/self-development/La Semaine de 4 heures Timothy Ferriss.jpg'
+import badass from './/Dostoevsky/images/self-development/you are a badass.jpg'
+import فن from './/Dostoevsky/images/self-development/الفن اللامبالاة.jpg'
+import power from './/Dostoevsky/images/self-development/The Power of Now.jpg'
+import قوة from './/Dostoevsky/images/self-development/قوة الآن.jpg'
+import العادات from './/Dostoevsky/images/self-development/7 عادات للناس الأكثر فعالية.jpg'
 export default function Categories() {
   const Dostoevsky_data = [
     
@@ -169,16 +231,242 @@ export default function Categories() {
       profile: homage
     },
   ]
+  const Jules_data = [
+    {
+      name: 'Cinq Semaines En Ballon',
+      profile: Cinq
+    },
+    {
+      name: 'De la Terre à la Lune',
+      profile: Terre
+    },
+    {
+      name: 'Autour de la Lune',
+      profile: Lune
+    },
+    {
+      name: 'Les Enfants du capitaine Grant',
+      profile: Enfants
+    },
+    {
+      name: 'Un capitaine de quinze ans',
+      profile: captaine
+    },
+    {
+      name: 'Michel Strogoff',
+      profile: Michel
+    },
+    {
+      name: 'Ile',
+      profile: Ile
+    },
+    {
+      name: 'Vingt Mille Lieues sous les mers',
+      profile: Vingt
+    },
+    {
+      name: 'Voyage au centre de la Terre',
+      profile: Voyage
+    },
 
+
+
+
+
+
+
+  ]
+  const Paulo_data = [
+    {
+      name: 'Veronika Decides to Die',
+      profile: Veronika
+    },
+    {
+      name: 'By the River Piedra I Sat Down and Wept',
+      profile: River
+    },
+    {
+      name: 'The Devil and Miss Prym',
+      profile: Devil
+    },
+    {
+      name: 'Eleven Minutes',
+      profile: Eleven
+    },
+    {
+      name: 'Brida',
+      profile: Brida
+    },
+    {
+      name: 'فيرونيكا تقرر أن تموت.',
+      profile: فيرونيكا
+    },
+    {
+      name: 'The Alchemist',
+      profile: Alchemist
+    },
+    {
+      name: 'sur le bord de la rivière piedra',
+      profile: Bord
+    },
+    {
+      name: 'Alchimiste',
+      profile: Alchimiste
+    },
+    {
+      name: 'الزهير',
+      profile: الزهير
+    },
+    {
+      name: 'Veronika décide de mourir',
+      profile: Mourir
+    },
+    
+    {
+      name: 'الخيميائي',
+      profile: الخيميائي
+    },
+    {
+      name: 'الزانية',
+      profile: الزانية
+    },
+  ]
+  const Philosophi_data = [
+    {
+      name: 'هكذا تكلم زرادشت',
+      profile: زرادشت
+    },
+    {
+      name: 'التأملات',
+      profile: تاملات
+    },
+    {
+      name: 'محاورات السعادة و الشقاء.',
+      profile: محاورات
+    },
+    {
+      name: 'ما وراء الخير والشر.',
+      profile: الخيروالشر
+    },
+    {
+      name: 'رسائل من المنفى.',
+      profile: رسائل
+    },
+    {
+      name: 'تاريخ الفلسفة الغربية',
+      profile: تاريخ
+    },
+    {
+      name: 'الفلسفة-اليونانية',
+      profile: اليونانية
+    },
+    {
+      name: 'الأخلاق النيقوماخية.',
+      profile: الاخلاق
+    },
+  ]
+  const Self_data = [
+    {
+      name : 'عادات للناس الأكثر فعالية.',
+      profile : homme
+    },
+    {
+      name : 'Homme',
+      profile : عادات
+    },
+    {
+      name : '12 règles pour une vie',
+      profile : regles
+    },
+    {
+      name : 'Hurt',
+      profile : hurt
+    },
+    {
+      name : 'Comment se faire des amis',
+      profile : comment
+    },
+    {
+      name : 'قوة التفكير الايجابي.',
+      profile : التفكير
+    },
+    {
+      name : 'Le Pouvoir de la vulnérabilité',
+      profile : pouvoir
+    },
+    {
+      name : 'Failing Forward',
+      profile : forward
+    },
+    {
+      name : 'The richest man in Babylon',
+      profile : richest
+    },
+    {
+      name : 'اسرار عقل المليونير.',
+      profile : اسرار
+    },
+    {
+      name : 'La puissance de la pensée positive',
+      profile : puissance
+    },
+    {
+      name : 'Big Magic',
+      profile : magic
+    },
+    {
+      name : 'من حرك قطعة الجبن الخاصة بي؟.',
+      profile : الجبن
+    },
+    {
+      name : 'The 4-Hour Workweek',
+      profile : workweek
+    },
+    {
+      name : 'Le pouvoir des habitudes',
+      profile : habitude
+    },
+    {
+      name : 'نظرية الفستق.',
+      profile : الفستق
+    },
+    {
+      name : 'The 7 habits of highly effective people',
+      profile : habits
+    },
+    {
+      name : 'La Semaine de 4 heures Timothy Ferriss',
+      profile : semaine
+    },
+    {
+      name : 'You are a badass',
+      profile : badass
+    },
+    {
+      name : 'فن اللامبالاة.',
+      profile : فن
+    },
+    {
+      name : 'The Power of Now',
+      profile : power
+    },
+    {
+      name : 'قوة الآن.',
+      profile : قوة
+    },
+    {
+      name : '7 عادات للناس الأكثر فعالية.',
+      profile : العادات
+    },]
   return (
     <div className='categories'>
         <Dostoevsky profile = {dost} Author = 'Fyodor Dostoevsky' data = {Dostoevsky_data}/>
         <Dostoevsky profile = {Agatha} Author = 'Agatha Christie' data= {Agatha_data} />
         <Dostoevsky profile = {Goerge} Author = 'Goerge Orwell' data= {George_data} />
-         {/*
-        <Dostoevsky/>
-        <Dostoevsky/>
-        <Dostoevsky/> */}
+        <Dostoevsky profile = {Jules} Author = 'Jules Verne' data= {Jules_data} />
+        <Dostoevsky profile = {Coelho} Author = 'Paulo Coelho' data= {Paulo_data} />
+        <Dostoevsky profile = {Philosophie} Author = 'Philosophi' data= {Philosophi_data} />
+        <Dostoevsky profile = {Self} Author = 'Self Development' data= {Self_data} />
     </div>
   )
 }
