@@ -27,6 +27,7 @@ export default function Dostoevsky() {
   return (
     <div className='dostoevsky'>
         <div className="type">
+        <img className='img' src={require('../../../images/dostoevsky_photo.jpg')} alt="Dostoevsky"/>
             <h1>Fyodor Dostoevsky</h1>
         </div>
         <Swiper
@@ -44,82 +45,73 @@ export default function Dostoevsky() {
       >
         <SwiperSlide>
         <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/crime.jpeg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
         </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/karamazof.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/idiot.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../images/SomeBooks/237350792_591694878876180_1370761944819857030_n.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
             <div className="book-info">
-                <h1>Crime and Punishment</h1>
-                <p>Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. The novel focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her cash.</p>
+                <h1>Crime and Punishment</h1>   
             </div>
             </div>
         </SwiperSlide>
