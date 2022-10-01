@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.139a09e6.css",
-    "main.js": "/Readme/static/js/main.17797684.js",
+    "main.css": "/Readme/static/css/main.a9a5e6b5.css",
+    "main.js": "/Readme/static/js/main.9dd2ab75.js",
     "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
+    "static/media/les frères karamazov.jpeg": "/Readme/static/media/les frères karamazov.c6769696c1542f4a2cb6.jpeg",
+    "static/media/the brothers karamazov.jpg": "/Readme/static/media/the brothers karamazov.65a61b09e2bf2b5dd223.jpg",
     "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
     "static/media/README.png": "/Readme/static/media/README.79c8262419135b850c9d.png",
-    "static/media/homage.jpeg": "/Readme/static/media/homage.0e7fac4c69d89d57ae9e.jpeg",
-    "static/media/down.jpeg": "/Readme/static/media/down.92918a3603497cc9d6f6.jpeg",
-    "static/media/gambler.jpg": "/Readme/static/media/gambler.b3a9e25407440c8d9d07.jpg",
+    "static/media/Agatha_Christie.png": "/Readme/static/media/Agatha_Christie.49452e008a6ead2aebad.png",
+    "static/media/Les Démons.jpg": "/Readme/static/media/Les Démons.9c05ed94d594eac9cc1f.jpg",
+    "static/media/Idiot.jpg": "/Readme/static/media/Idiot.e0d737de350f6e6002de.jpg",
     "static/media/dostoevsky_photo.jpg": "/Readme/static/media/dostoevsky_photo.7d6d9f9db694082144d1.jpg",
-    "static/media/1984.jpeg": "/Readme/static/media/1984.f01d1add351ad3f61251.jpeg",
+    "static/media/the gambler.jpg": "/Readme/static/media/the gambler.7bf041da53b8b392ffff.jpg",
+    "static/media/الاخوة كرامازوف.jfif": "/Readme/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
+    "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
-    "main.139a09e6.css.map": "/Readme/static/css/main.139a09e6.css.map",
-    "main.17797684.js.map": "/Readme/static/js/main.17797684.js.map"
+    "main.a9a5e6b5.css.map": "/Readme/static/css/main.a9a5e6b5.css.map",
+    "main.9dd2ab75.js.map": "/Readme/static/js/main.9dd2ab75.js.map"
   },
   "entrypoints": [
-    "static/css/main.139a09e6.css",
-    "static/js/main.17797684.js"
+    "static/css/main.a9a5e6b5.css",
+    "static/js/main.9dd2ab75.js"
   ]
 }
