@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.504c3bea.css",
+    "main.css": "/Readme/static/css/main.139a09e6.css",
     "main.js": "/Readme/static/js/main.17797684.js",
     "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
     "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
@@ -11,11 +11,11 @@
     "static/media/dostoevsky_photo.jpg": "/Readme/static/media/dostoevsky_photo.7d6d9f9db694082144d1.jpg",
     "static/media/1984.jpeg": "/Readme/static/media/1984.f01d1add351ad3f61251.jpeg",
     "index.html": "/Readme/index.html",
-    "main.504c3bea.css.map": "/Readme/static/css/main.504c3bea.css.map",
+    "main.139a09e6.css.map": "/Readme/static/css/main.139a09e6.css.map",
     "main.17797684.js.map": "/Readme/static/js/main.17797684.js.map"
   },
   "entrypoints": [
-    "static/css/main.504c3bea.css",
+    "static/css/main.139a09e6.css",
     "static/js/main.17797684.js"
   ]
 }
