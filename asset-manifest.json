@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.150544ac.css",
-    "main.js": "/Readme/static/js/main.df955733.js",
+    "main.css": "/Readme/static/css/main.8f1ff02c.css",
+    "main.js": "/Readme/static/js/main.f125e38f.js",
     "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
     "static/media/crime.jpeg": "/Readme/static/media/crime.2a41ceedbd875b300e1e.jpeg",
     "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
@@ -11,11 +11,11 @@
     "static/media/idiot.jpg": "/Readme/static/media/idiot.acbb002bc4fbeab16a4d.jpg",
     "static/media/karamazof.jpg": "/Readme/static/media/karamazof.b5a93aa5e718718d6eb7.jpg",
     "index.html": "/Readme/index.html",
-    "main.150544ac.css.map": "/Readme/static/css/main.150544ac.css.map",
-    "main.df955733.js.map": "/Readme/static/js/main.df955733.js.map"
+    "main.8f1ff02c.css.map": "/Readme/static/css/main.8f1ff02c.css.map",
+    "main.f125e38f.js.map": "/Readme/static/js/main.f125e38f.js.map"
   },
   "entrypoints": [
-    "static/css/main.150544ac.css",
-    "static/js/main.df955733.js"
+    "static/css/main.8f1ff02c.css",
+    "static/js/main.f125e38f.js"
   ]
 }
