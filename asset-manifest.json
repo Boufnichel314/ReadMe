@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.d33d31fe.css",
-    "main.js": "/Readme/static/js/main.e78f749e.js",
+    "main.css": "/Readme/static/css/main.504c3bea.css",
+    "main.js": "/Readme/static/js/main.17797684.js",
     "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
     "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
     "static/media/README.png": "/Readme/static/media/README.79c8262419135b850c9d.png",
@@ -11,11 +11,11 @@
     "static/media/dostoevsky_photo.jpg": "/Readme/static/media/dostoevsky_photo.7d6d9f9db694082144d1.jpg",
     "static/media/1984.jpeg": "/Readme/static/media/1984.f01d1add351ad3f61251.jpeg",
     "index.html": "/Readme/index.html",
-    "main.d33d31fe.css.map": "/Readme/static/css/main.d33d31fe.css.map",
-    "main.e78f749e.js.map": "/Readme/static/js/main.e78f749e.js.map"
+    "main.504c3bea.css.map": "/Readme/static/css/main.504c3bea.css.map",
+    "main.17797684.js.map": "/Readme/static/js/main.17797684.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33d31fe.css",
-    "static/js/main.e78f749e.js"
+    "static/css/main.504c3bea.css",
+    "static/js/main.17797684.js"
   ]
 }
