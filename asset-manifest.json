@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.986b3fde.css",
-    "main.js": "/Readme/static/js/main.b4b442d4.js",
+    "main.css": "/Readme/static/css/main.150544ac.css",
+    "main.js": "/Readme/static/js/main.df955733.js",
     "static/media/lib2.jpg": "/Readme/static/media/lib2.3e48766a26ef7c5e24aa.jpg",
+    "static/media/crime.jpeg": "/Readme/static/media/crime.2a41ceedbd875b300e1e.jpeg",
     "static/media/lastdost2.png": "/Readme/static/media/lastdost2.8c86bb6428b2c915adae.png",
     "static/media/README.png": "/Readme/static/media/README.79c8262419135b850c9d.png",
-    "static/media/237350792_591694878876180__n.jpg": "/Readme/static/media/237350792_591694878876180_1370761944819857030_n.35a6ec3d918674ad6bfc.jpg",
+    "static/media/gambler.jpg": "/Readme/static/media/gambler.b3a9e25407440c8d9d07.jpg",
+    "static/media/dostoevsky_photo.jpg": "/Readme/static/media/dostoevsky_photo.7d6d9f9db694082144d1.jpg",
+    "static/media/idiot.jpg": "/Readme/static/media/idiot.acbb002bc4fbeab16a4d.jpg",
+    "static/media/karamazof.jpg": "/Readme/static/media/karamazof.b5a93aa5e718718d6eb7.jpg",
     "index.html": "/Readme/index.html",
-    "main.986b3fde.css.map": "/Readme/static/css/main.986b3fde.css.map",
-    "main.b4b442d4.js.map": "/Readme/static/js/main.b4b442d4.js.map"
+    "main.150544ac.css.map": "/Readme/static/css/main.150544ac.css.map",
+    "main.df955733.js.map": "/Readme/static/js/main.df955733.js.map"
   },
   "entrypoints": [
-    "static/css/main.986b3fde.css",
-    "static/js/main.b4b442d4.js"
+    "static/css/main.150544ac.css",
+    "static/js/main.df955733.js"
   ]
 }
