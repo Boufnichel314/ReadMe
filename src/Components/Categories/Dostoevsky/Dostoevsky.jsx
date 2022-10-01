@@ -59,7 +59,7 @@ export default function Dostoevsky(props) {
                 )
             }
             )}
-        <SwiperSlide>
+        {/* <SwiperSlide>
             <div className="book">
             <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/الابله.jfif')} alt="Dostoevsky"/>
             <div className="book-info">
@@ -114,7 +114,7 @@ export default function Dostoevsky(props) {
                 <h1>الاخوة كرامازوف</h1>   
             </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   )
