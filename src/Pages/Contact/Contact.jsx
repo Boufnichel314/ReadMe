@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-
+import AnimatedPages from '../../Components/AnimatedPages'
 // npm i @emailjs/browser
 
 const Contact = () => {
@@ -28,6 +28,7 @@ const Contact = () => {
   };
 
   return (
+    <AnimatedPages>
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
@@ -39,6 +40,7 @@ const Contact = () => {
         <input type="submit" value="Send" />
       </form>
     </StyledContactForm>
+    </AnimatedPages>
   );
 };
 
