@@ -6,3 +6,39 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.contact{
+    border: 2px solid green;
+    width: 100vh;
+    height: 70vh;
+}
+form{
+    
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    border: 2px solid red
+}
+form label{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.label{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import AnimatedPages from '../../Components/AnimatedPages'
+import './contact.css'
 // npm i @emailjs/browser
 
 const Contact = () => {
@@ -29,17 +30,27 @@ const Contact = () => {
 
   return (
     <AnimatedPages>
+    <div className="contact-container">
     <StyledContactForm>
+      <div className="contact">
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <div className="input">
+        <input type="text" placeholder="اسمك الكامل" name="user_name" />
+        <label>الاسم</label>
+        </div>
+        <div className="input">
+        <input type="email" placeholder="البريد الالكتروني"  name="user_email" />
+        <label>البريد الالكتروني</label>
+        </div>
+        <div className="input">
+        <textarea name="message" placeholder="رسالتك" />
+        <label>الرسالة</label>
+        </div>
+        <input type="submit" value="ارسال" />
       </form>
+      </div>
     </StyledContactForm>
+    </div>
     </AnimatedPages>
   );
 };
@@ -51,10 +62,14 @@ const StyledContactForm = styled.div`
   width: 400px;
   form {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     font-size: 16px;
+    border: 2px solid red;
+    height: 100%;
+
     input {
       width: 100%;
       height: 35px;
@@ -82,6 +97,10 @@ const StyledContactForm = styled.div`
     }
     label {
       margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      text-align: left;
+      width: 100%;
+      color: rgba(0, 206, 158, 1);
     }
     input[type="submit"] {
       margin-top: 2rem;
@@ -89,6 +108,7 @@ const StyledContactForm = styled.div`
       background: rgb(249, 105, 14);
       color: white;
       border: none;
+      width: 30%;
     }
   }
 `;

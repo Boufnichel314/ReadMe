@@ -3,7 +3,7 @@
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    height: 44vh;
+    height: 30rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,22 +11,28 @@
 .dostoevsky .type{
     width: 20%;
     height: 100%;
-    position: relative;
+    /* position: relative; */
     border-radius: 30px 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 .dostoevsky .type img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 60%;
     border-radius: 30px 30px;
+    border: 4px solid #3c4025;
 }
 .dostoevsky .type h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #f9e08c;
     box-shadow: 3px 3px 3px #fbdc84;
     font-weight: 700;
-    margin-left: 20px;
-    position: absolute;
-    bottom: 1rem;
+    margin-left: 2px;
+
+    /* border: 2px solid green; */
     font-family: 'Rajdhani', sans-serif;
 }
 .dostoevsky .mySwiper{
@@ -46,7 +52,7 @@
 }
 .book:hover{
     cursor: pointer;
-    border: 4px solid rgb(255, 255, 255);
+    border: 4px solid #9b542a;
 }
 .book .img{
     width: 100%;
@@ -103,10 +109,11 @@
         height: 20%;
     }
     .book .book-info h1{
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
     .book .img{
         border-top: 4px solid #a53b20;
+        height: 300px;
     }
 }
     

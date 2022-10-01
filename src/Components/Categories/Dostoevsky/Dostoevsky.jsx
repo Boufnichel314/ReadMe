@@ -27,25 +27,22 @@ export default function Dostoevsky() {
   return (
     <div className='dostoevsky'>
         <div className="type">
+        <h1>Fyodor <br /> Dostoevsky</h1>
         <img className='img' src={require('../../../images/dostoevsky_photo.jpg')} alt="Dostoevsky"/>
-            <h1>Fyodor Dostoevsky</h1>
         </div>
         <Swiper
-        slidesPerView={nmbr}
+        slidesPerView={1.5}
         spaceBetween={30}
         slidesPerGroup={nmbr}
         loop={true}
         loopFillGroupWithBlank={true}
-        pagination={{
-          clickable: true,
-        }}
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-        <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/crime.jpeg')} alt="Dostoevsky"/>
+        <div className="book">            
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/down.jpeg')} alt="Dostoevsky"/>
             <div className="book-info">
                 <h1>Crime and Punishment</h1>   
             </div>
@@ -53,7 +50,7 @@ export default function Dostoevsky() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/gambler.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/homage.jpeg')} alt="Dostoevsky"/>
             <div className="book-info">
                 <h1>Crime and Punishment</h1>   
             </div>
@@ -61,7 +58,7 @@ export default function Dostoevsky() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/karamazof.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/1984.jpeg')} alt="Dostoevsky"/>
             <div className="book-info">
                 <h1>Crime and Punishment</h1>   
             </div>
@@ -69,7 +66,7 @@ export default function Dostoevsky() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/idiot.jpg')} alt="Dostoevsky"/>
+            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/down.jpeg')} alt="Dostoevsky"/>
             <div className="book-info">
                 <h1>Crime and Punishment</h1>   
             </div>
