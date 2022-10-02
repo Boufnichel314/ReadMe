@@ -4,9 +4,8 @@ import Dostoevsky from './Dostoevsky/Dostoevsky'
 import dost from '../Categories/Dostoevsky/images/dostoevsky/dostoevsky_photo.jpg'
 import Agatha from '../Categories/Dostoevsky/images/Agatha/Agatha_Christie.png'
 import Goerge from './Dostoevsky/images/George Orwell/Goerge.jpg'
-import Jules from './Dostoevsky/images/jules verne/Julses.jpg'
-import Coelho from './Dostoevsky/images/paulo coelho/Coelho.jpg'
-import Philosophie from './Dostoevsky/images/philosophie/الفلسفة-اليونانية-768x515.jpg'
+import Jules from './Dostoevsky/images/jules verne/Jules.jpg'
+import Coelho from './Dostoevsky/images/paulo coelho/Coelho.jpg.jpg'
 import Self from './Dostoevsky/images/self-development/self.jpg'
 /////////////////////////////////
 import Crime from './Dostoevsky/images/dostoevsky/crime and punishment.jpg'
@@ -56,25 +55,13 @@ import Voyage from './Dostoevsky/images/jules verne/Voyage au centre de la Terre
 import Brida from './Dostoevsky/images/paulo coelho/Brida.jpg'
 import Alchimiste from './Dostoevsky/images/paulo coelho/alchimiste.jpg'
 import Eleven from './Dostoevsky/images/paulo coelho/Eleven Minutes.jpg'
-import الزهير from './Dostoevsky/images/paulo coelho/الزهير.jpg'
 import Devil from './Dostoevsky/images/paulo coelho/The Devil and Miss Prym.jpg'
-import الخيميائي from './Dostoevsky/images/paulo coelho/الخيميائي.jpg'
 import Veronika from './Dostoevsky/images/paulo coelho/Veronika Decides to Die.jpg'
-import الزانية from './Dostoevsky/images/paulo coelho/الزانية.png'
 import Mourir from './Dostoevsky/images/paulo coelho/Veronika décide de mourir.jpg'
 import River from './Dostoevsky/images/paulo coelho//By the River Piedra I Sat Down and Wept.jpg'
 import فيرونيكا from './Dostoevsky/images/paulo coelho/فيرونيكا تقرر أن تموت.jpg'
 import Bord from './Dostoevsky/images/paulo coelho/sur le bord de la rivière piedra.jpeg'
 import Alchemist from './Dostoevsky/images/paulo coelho/The Alchemist.jpeg'
-////////////////////////////////////////////////////////
-import زرادشت from './Dostoevsky/images/philosophie/هكذا تكلم زرادشت.jpg'
-import تاملات from './Dostoevsky/images/philosophie/التأملات.jpg'
-import محاورات from './Dostoevsky/images/philosophie/محاورات السعادة و الشقاء.jpg'
-import الخيروالشر from './Dostoevsky/images/philosophie/ما وراء الخير والشر.jpg'
-import رسائل from './Dostoevsky/images/philosophie/رسائل من المنفى.jpg'
-import تاريخ from './Dostoevsky/images/philosophie/تاريخ الفلسفة الغربية.jpg'
-import اليونانية from './Dostoevsky/images/philosophie/الفلسفة-اليونانية-768x515.jpg'
-import الاخلاق from './Dostoevsky/images/philosophie/الأخلاق النيقوماخية.jpg'
 ///////////////////////////////////////////////////////
 import homme from './/Dostoevsky/images/self-development/homme.png'
 import عادات from './/Dostoevsky/images/self-development/7 عادات للناس الأكثر فعالية.jpg'
@@ -92,13 +79,6 @@ import الجبن from './/Dostoevsky/images/self-development/من حرك قطع
 import workweek from './/Dostoevsky/images/self-development/The 4-Hour Workweek.jpg'
 import habitude from './/Dostoevsky/images/self-development/Le pouvoir des habitudes.jpg'
 import الفستق from './/Dostoevsky/images/self-development/نظرية الفستق.jpg'
-import habits from './/Dostoevsky/images/self-development/the 7 habits of highly effective people.jpg'
-import semaine from './/Dostoevsky/images/self-development/La Semaine de 4 heures Timothy Ferriss.jpg'
-import badass from './/Dostoevsky/images/self-development/you are a badass.jpg'
-import فن from './/Dostoevsky/images/self-development/الفن اللامبالاة.jpg'
-import power from './/Dostoevsky/images/self-development/The Power of Now.jpg'
-import قوة from './/Dostoevsky/images/self-development/قوة الآن.jpg'
-import العادات from './/Dostoevsky/images/self-development/7 عادات للناس الأكثر فعالية.jpg'
 export default function Categories() {
   const Dostoevsky_data = [
     
@@ -314,55 +294,8 @@ export default function Categories() {
       profile: Alchimiste
     },
     {
-      name: 'الزهير',
-      profile: الزهير
-    },
-    {
       name: 'Veronika décide de mourir',
       profile: Mourir
-    },
-    
-    {
-      name: 'الخيميائي',
-      profile: الخيميائي
-    },
-    {
-      name: 'الزانية',
-      profile: الزانية
-    },
-  ]
-  const Philosophi_data = [
-    {
-      name: 'هكذا تكلم زرادشت',
-      profile: زرادشت
-    },
-    {
-      name: 'التأملات',
-      profile: تاملات
-    },
-    {
-      name: 'محاورات السعادة و الشقاء.',
-      profile: محاورات
-    },
-    {
-      name: 'ما وراء الخير والشر.',
-      profile: الخيروالشر
-    },
-    {
-      name: 'رسائل من المنفى.',
-      profile: رسائل
-    },
-    {
-      name: 'تاريخ الفلسفة الغربية',
-      profile: تاريخ
-    },
-    {
-      name: 'الفلسفة-اليونانية',
-      profile: اليونانية
-    },
-    {
-      name: 'الأخلاق النيقوماخية.',
-      profile: الاخلاق
     },
   ]
   const Self_data = [
@@ -429,34 +362,6 @@ export default function Categories() {
     {
       name : 'نظرية الفستق.',
       profile : الفستق
-    },
-    {
-      name : 'The 7 habits of highly effective people',
-      profile : habits
-    },
-    {
-      name : 'La Semaine de 4 heures Timothy Ferriss',
-      profile : semaine
-    },
-    {
-      name : 'You are a badass',
-      profile : badass
-    },
-    {
-      name : 'فن اللامبالاة.',
-      profile : فن
-    },
-    {
-      name : 'The Power of Now',
-      profile : power
-    },
-    {
-      name : 'قوة الآن.',
-      profile : قوة
-    },
-    {
-      name : '7 عادات للناس الأكثر فعالية.',
-      profile : العادات
     },]
   return (
     <div className='categories'>
@@ -465,7 +370,6 @@ export default function Categories() {
         <Dostoevsky profile = {Goerge} Author = 'Goerge Orwell' data= {George_data} />
         <Dostoevsky profile = {Jules} Author = 'Jules Verne' data= {Jules_data} />
         <Dostoevsky profile = {Coelho} Author = 'Paulo Coelho' data= {Paulo_data} />
-        <Dostoevsky profile = {Philosophie} Author = 'Philosophi' data= {Philosophi_data} />
         <Dostoevsky profile = {Self} Author = 'Self Development' data= {Self_data} />
     </div>
   )

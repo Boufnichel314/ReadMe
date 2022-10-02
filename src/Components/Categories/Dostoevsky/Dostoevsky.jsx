@@ -59,62 +59,6 @@ export default function Dostoevsky(props) {
                 )
             }
             )}
-        {/* <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/الابله.jfif')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>الابله</h1>   
-            </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/the brothers karamazov.jpg')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>The Brothers Karamazov</h1>   
-            </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/Idiot.jpg')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>Idiot</h1>   
-            </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/les frères karamazov.jpeg')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>Les Frères Karamazov</h1>   
-            </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/the gambler.jpg')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>The Gambler</h1>   
-            </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/Les Démons.jpg')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>Les Démons</h1>   
-            </div>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className="book">
-            <img className='img' src={require('../../../Components/Categories/Dostoevsky/images/الاخوة كرامازوف.jfif')} alt="Dostoevsky"/>
-            <div className="book-info">
-                <h1>الاخوة كرامازوف</h1>   
-            </div>
-            </div>
-        </SwiperSlide> */}
       </Swiper>
     </div>
   )
