@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { useState, useEffect } from 'react';
 import './topnav.css'
 import { styled, alpha } from '@mui/material/styles';
@@ -9,7 +8,6 @@ import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
-import Home from '../../Pages/Home/Home';
 import { useDispatch, useSelector } from 'react-redux';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
