@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.9049cd1b.css",
-    "main.js": "/Readme/static/js/main.5031a147.js",
+    "main.css": "/Readme/static/css/main.2f371e13.css",
+    "main.js": "/Readme/static/js/main.674464d0.js",
     "static/css/568.94e001f9.chunk.css": "/Readme/static/css/568.94e001f9.chunk.css",
     "static/js/568.b1842457.chunk.js": "/Readme/static/js/568.b1842457.chunk.js",
-    "static/js/473.9ffc09a6.chunk.js": "/Readme/static/js/473.9ffc09a6.chunk.js",
+    "static/js/473.93a0f2a3.chunk.js": "/Readme/static/js/473.93a0f2a3.chunk.js",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/Readme/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
     "static/media/animal-farm.png": "/Readme/static/media/animal-farm.ca56b9ff7c842da43636.png",
     "static/media/La Maison biscornue.jpg": "/Readme/static/media/La Maison biscornue.e423574e804f849c7aa7.jpg",
@@ -21,6 +21,7 @@
     "static/media/alchimiste.jpg": "/Readme/static/media/alchimiste.5164499412f9c0e9ab8d.jpg",
     "static/media/La puissance de la pensée positive.jpg": "/Readme/static/media/La puissance de la pensée positive.2ae649ed94d5dd170fe1.jpg",
     "static/media/README.png": "/Readme/static/media/README.79c8262419135b850c9d.png",
+    "static/media/cover.png": "/Readme/static/media/cover.a06ef287f7cf5bf3c84b.png",
     "static/media/Agatha_Christie.png": "/Readme/static/media/Agatha_Christie.49452e008a6ead2aebad.png",
     "static/media/من حرك قطعة الجبن الخاصة بي؟.jpg": "/Readme/static/media/من حرك قطعة الجبن الخاصة بي؟.7091e2f88ac2872607c2.jpg",
     "static/media/homage-to-catalonia.jpg": "/Readme/static/media/homage-to-catalonia.0e7fac4c69d89d57ae9e.jpg",
@@ -71,14 +72,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/Readme/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
-    "main.9049cd1b.css.map": "/Readme/static/css/main.9049cd1b.css.map",
-    "main.5031a147.js.map": "/Readme/static/js/main.5031a147.js.map",
+    "main.2f371e13.css.map": "/Readme/static/css/main.2f371e13.css.map",
+    "main.674464d0.js.map": "/Readme/static/js/main.674464d0.js.map",
     "568.94e001f9.chunk.css.map": "/Readme/static/css/568.94e001f9.chunk.css.map",
     "568.b1842457.chunk.js.map": "/Readme/static/js/568.b1842457.chunk.js.map",
-    "473.9ffc09a6.chunk.js.map": "/Readme/static/js/473.9ffc09a6.chunk.js.map"
+    "473.93a0f2a3.chunk.js.map": "/Readme/static/js/473.93a0f2a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9049cd1b.css",
-    "static/js/main.5031a147.js"
+    "static/css/main.2f371e13.css",
+    "static/js/main.674464d0.js"
   ]
 }
