@@ -128,7 +128,7 @@
         top: 0;
     }
     .home-title .title p{
-        font-size: 2rem;
+        font-size: 1.8rem;
         position: absolute;
         top: 9rem;
     }
@@ -146,6 +146,13 @@
         height: 100%;
     }
 }
+@media screen and (max-width: 390px){
+.home-title .title p{
+        font-size: 1.8rem;
+        position: absolute;
+        top: 9rem;
+    }
+}
 @media screen and (max-width: 374px){
     .home{
         height: 90vh;
@@ -159,7 +166,7 @@
         top: 0;
     }
     .home-title .title p{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         position: absolute;
         top: 9rem;
     }

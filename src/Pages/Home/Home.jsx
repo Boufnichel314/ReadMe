@@ -21,7 +21,7 @@ else{
       <div className="home-title">
           <div className="title">
             <h1>ReadMe</h1>
-            <p> <span> ريدمي </span>هي مكتبة لبيع كل الكتب بالعربية <br /> والفرنسية و الانجليزية و في جميع المدن المغربية</p>
+            <p> <span> ريدمي </span>هي مكتبة لبيع كل الكتب بالعربية <br /> والفرنسية و الانجليزية <br /> و في جميع المدن المغربية</p>
           </div>
         </div>
         <div className="home-img">
