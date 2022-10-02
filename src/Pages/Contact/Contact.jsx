@@ -30,27 +30,37 @@ const Contact = () => {
 
   return (
     <AnimatedPages>
-    <div className="contact-container">
-    <StyledContactForm>
+    {/* <StyledContactForm> */}
+      <div className="total">
+      <div className="left">
       <div className="contact">
       <form ref={form} onSubmit={sendEmail}>
         <div className="input">
         <input type="text" placeholder="اسمك الكامل" name="user_name" />
-        <label>الاسم</label>
+        {/* <label>الاسم</label> */}
         </div>
         <div className="input">
         <input type="email" placeholder="البريد الالكتروني"  name="user_email" />
-        <label>البريد الالكتروني</label>
+        {/* <label>البريد الالكتروني</label> */}
         </div>
         <div className="input">
         <textarea name="message" placeholder="رسالتك" />
-        <label>الرسالة</label>
+        {/* <label>الرسالة</label> */}
         </div>
+        <div class="wrapper">
         <input type="submit" value="ارسال" />
+        </div>  
       </form>
       </div>
-    </StyledContactForm>
-    </div>
+      <div className="background">
+      <img className='img' src={require('../../images/cover.png')}  alt="Dostoevsky"/>
+      </div>
+      </div>
+      <div className="right">
+        
+      </div>
+      </div>
+    {/* </StyledContactForm> */}
     </AnimatedPages>
   );
 };
@@ -58,57 +68,56 @@ const Contact = () => {
 export default Contact;
 
 // Styles
-const StyledContactForm = styled.div`
-  width: 400px;
-  form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 16px;
-    border: 2px solid red;
-    height: 100%;
+// const StyledContactForm = styled.div`
+//   width: 400px;
+//   form {
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     width: 100%;
+//     font-size: 16px;
+//     height: 100%;
 
-    input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    label {
-      margin-top: 1rem;
-      margin-bottom: 0.5rem;
-      text-align: left;
-      width: 100%;
-      color: rgba(0, 206, 158, 1);
-    }
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      background: rgb(249, 105, 14);
-      color: white;
-      border: none;
-      width: 30%;
-    }
-  }
-`;
+//     input {
+//       width: 100%;
+//       height: 35px;
+//       padding: 7px;
+//       outline: none;
+//       border-radius: 5px;
+//       border: 1px solid rgb(220, 220, 220);
+//       &:focus {
+//         border: 2px solid rgba(0, 206, 158, 1);
+//       }
+//     }
+//     textarea {
+//       max-width: 100%;
+//       min-width: 100%;
+//       width: 100%;
+//       max-height: 100px;
+//       min-height: 100px;
+//       padding: 7px;
+//       outline: none;
+//       border-radius: 5px;
+//       border: 1px solid rgb(220, 220, 220);
+//       &:focus {
+//         border: 2px solid rgba(0, 206, 158, 1);
+//       }
+//     }
+//     label {
+//       margin-top: 1rem;
+//       margin-bottom: 0.5rem;
+//       text-align: left;
+//       width: 100%;
+//       color: rgba(0, 206, 158, 1);
+//     }
+//     input[type="submit"] {
+//       margin-top: 2rem;
+//       cursor: pointer;
+//       background: rgb(249, 105, 14);
+//       color: white;
+//       border: none;
+//       width: 30%;
+//     }
+//   }
+// `;
