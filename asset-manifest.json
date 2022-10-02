@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Readme/static/css/main.a9a5e6b5.css",
-    "main.js": "/Readme/static/js/main.0503a58a.js",
+    "main.js": "/Readme/static/js/main.f24e61ae.js",
     "static/media/Jules.jpg": "/Readme/static/media/Jules.65ea5dc49df418e478e2.jpg",
     "static/media/De la Terre à la Lune.jpg": "/Readme/static/media/De la Terre à la Lune.b16920193ee8ec93c9ef.jpg",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/Readme/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
@@ -79,10 +79,10 @@
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
     "main.a9a5e6b5.css.map": "/Readme/static/css/main.a9a5e6b5.css.map",
-    "main.0503a58a.js.map": "/Readme/static/js/main.0503a58a.js.map"
+    "main.f24e61ae.js.map": "/Readme/static/js/main.f24e61ae.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a5e6b5.css",
-    "static/js/main.0503a58a.js"
+    "static/js/main.f24e61ae.js"
   ]
 }
