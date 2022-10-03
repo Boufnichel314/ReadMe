@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.2f7e8f9d.css",
-    "main.js": "/Readme/static/js/main.674464d0.js",
+    "main.css": "/Readme/static/css/main.b27253d9.css",
+    "main.js": "/Readme/static/js/main.1c001a11.js",
     "static/css/568.94e001f9.chunk.css": "/Readme/static/css/568.94e001f9.chunk.css",
     "static/js/568.b1842457.chunk.js": "/Readme/static/js/568.b1842457.chunk.js",
     "static/js/473.93a0f2a3.chunk.js": "/Readme/static/js/473.93a0f2a3.chunk.js",
@@ -37,6 +37,7 @@
     "static/media/7 عادات للناس الأكثر فعالية.jpg": "/Readme/static/media/7 عادات للناس الأكثر فعالية.2f10426fae4c03386756.jpg",
     "static/media/Coelho.jpg.jpg": "/Readme/static/media/Coelho.jpg.aca5f8342734d7f57c09.jpg",
     "static/media/Idiot.jpg": "/Readme/static/media/Idiot.e0d737de350f6e6002de.jpg",
+    "static/media/contact.jpeg": "/Readme/static/media/contact.d07359945685a67e4df1.jpeg",
     "static/media/dostoevsky_photo.jpg": "/Readme/static/media/dostoevsky_photo.7d6d9f9db694082144d1.jpg",
     "static/media/The Alchemist.jpeg": "/Readme/static/media/The Alchemist.5bb5d2c0fa63934e162c.jpeg",
     "static/media/hurt.jpg": "/Readme/static/media/hurt.652bea2274fe3a8f1fdc.jpg",
@@ -72,14 +73,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/Readme/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
-    "main.2f7e8f9d.css.map": "/Readme/static/css/main.2f7e8f9d.css.map",
-    "main.674464d0.js.map": "/Readme/static/js/main.674464d0.js.map",
+    "main.b27253d9.css.map": "/Readme/static/css/main.b27253d9.css.map",
+    "main.1c001a11.js.map": "/Readme/static/js/main.1c001a11.js.map",
     "568.94e001f9.chunk.css.map": "/Readme/static/css/568.94e001f9.chunk.css.map",
     "568.b1842457.chunk.js.map": "/Readme/static/js/568.b1842457.chunk.js.map",
     "473.93a0f2a3.chunk.js.map": "/Readme/static/js/473.93a0f2a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f7e8f9d.css",
-    "static/js/main.674464d0.js"
+    "static/css/main.b27253d9.css",
+    "static/js/main.1c001a11.js"
   ]
 }
