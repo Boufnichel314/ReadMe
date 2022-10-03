@@ -57,7 +57,7 @@ const Contact = () => {
       </div>
       </div>
       <div className="right">
-        
+      <div className="back"></div>
       </div>
       </div>
     {/* </StyledContactForm> */}
