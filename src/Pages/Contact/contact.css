@@ -251,7 +251,7 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
         font-size: 14px;
     }
     form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-webkit-input-placeholder, form input[type="tel"]::-webkit-input-placeholder, form textarea::-webkit-input-placeholder{
-        font-size: 18px;
+        font-size: 15px;
         color: #eee9e2;
         font-family: 'Lemonada', cursive;
         font-weight: 600;
