@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.4dd9dae2.css",
-    "main.js": "/Readme/static/js/main.dd3467ad.js",
-    "static/css/568.435169d2.chunk.css": "/Readme/static/css/568.435169d2.chunk.css",
-    "static/js/568.b1842457.chunk.js": "/Readme/static/js/568.b1842457.chunk.js",
-    "static/js/473.93a0f2a3.chunk.js": "/Readme/static/js/473.93a0f2a3.chunk.js",
+    "main.css": "/Readme/static/css/main.6177c8a6.css",
+    "main.js": "/Readme/static/js/main.81b51ee0.js",
+    "static/css/568.9df9e23b.chunk.css": "/Readme/static/css/568.9df9e23b.chunk.css",
+    "static/js/568.57b0780c.chunk.js": "/Readme/static/js/568.57b0780c.chunk.js",
+    "static/js/0.4ed1df01.chunk.js": "/Readme/static/js/0.4ed1df01.chunk.js",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/Readme/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
     "static/media/animal-farm.png": "/Readme/static/media/animal-farm.ca56b9ff7c842da43636.png",
     "static/media/La Maison biscornue.jpg": "/Readme/static/media/La Maison biscornue.e423574e804f849c7aa7.jpg",
@@ -74,14 +74,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/Readme/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
-    "main.4dd9dae2.css.map": "/Readme/static/css/main.4dd9dae2.css.map",
-    "main.dd3467ad.js.map": "/Readme/static/js/main.dd3467ad.js.map",
-    "568.435169d2.chunk.css.map": "/Readme/static/css/568.435169d2.chunk.css.map",
-    "568.b1842457.chunk.js.map": "/Readme/static/js/568.b1842457.chunk.js.map",
-    "473.93a0f2a3.chunk.js.map": "/Readme/static/js/473.93a0f2a3.chunk.js.map"
+    "main.6177c8a6.css.map": "/Readme/static/css/main.6177c8a6.css.map",
+    "main.81b51ee0.js.map": "/Readme/static/js/main.81b51ee0.js.map",
+    "568.9df9e23b.chunk.css.map": "/Readme/static/css/568.9df9e23b.chunk.css.map",
+    "568.57b0780c.chunk.js.map": "/Readme/static/js/568.57b0780c.chunk.js.map",
+    "0.4ed1df01.chunk.js.map": "/Readme/static/js/0.4ed1df01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dd9dae2.css",
-    "static/js/main.dd3467ad.js"
+    "static/css/main.6177c8a6.css",
+    "static/js/main.81b51ee0.js"
   ]
 }
