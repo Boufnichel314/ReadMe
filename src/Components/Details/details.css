@@ -5,16 +5,17 @@
     width: 300px;
     padding: 5px;
     margin: 5px 0;
-    background-color: #882c2d;
+    background-color: #000000;
     border-radius: 10px;
     position: relative;
     font-family: "Montserrat", sans-serif;
+    cursor: pointer;
     /* z-index: 1000000; */
 }
-.details:hover {
+/* .details:hover {
     background-color: white;
     color: black;
-  }
+  } */
 
   .details .detailsImg{
     border-radius: 10px;
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid red; */
   }
 .image{
     width: 100%;
@@ -36,13 +38,12 @@
 .author{
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
 }
 .title h1{
-    font-size: 1.5rem;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
     margin-left: 1rem;
+    color: #ffffff;
 }
   @media (max-width: 550px) {
     .details {
