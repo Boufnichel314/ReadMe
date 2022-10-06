@@ -57,7 +57,7 @@ export default function Dostoevsky(props) {
                         <div className="book">
                             {/* <img className='img' src={item.profile} alt="Dostoevsky"/> */}
                             <LazyLoadImage className='img' src={item.profile}
-                            // width={600} height={400}
+                            effect="blur"
                             alt="Image Alt"
                              />
                             
