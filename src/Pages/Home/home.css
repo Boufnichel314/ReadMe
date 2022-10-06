@@ -198,3 +198,33 @@
         font-size: 1.7rem;
     }
 }
+/*media for height*/
+@media screen and (max-height: 630px){
+    .home{
+        height: 100vh;
+    }
+    .home-title .title h1{
+        font-size: 3rem;
+        position: absolute;
+        top: 0;
+    }
+    .home-title .title p{
+        font-size: 1.8rem;
+        position: absolute;
+        top: 9rem;
+    }
+    .home-title .title p span{
+        font-size: 2rem;
+    }
+    .home-img{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 1rem;
+    }
+    .home-img img{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+}
