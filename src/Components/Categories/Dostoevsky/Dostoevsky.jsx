@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import useMediaQuery from '../../useMediaQuery'
 export default function Dostoevsky(props) {
     const isMobile = useMediaQuery('(max-width: 768px)')
@@ -57,6 +58,7 @@ export default function Dostoevsky(props) {
                         <div className="book">
                             {/* <img className='img' src={item.profile} alt="Dostoevsky"/> */}
                             <LazyLoadImage className='img' src={item.profile}
+                            width={'100%'} height={'100%'}
                             effect="blur"
                             alt="Image Alt"
                              />
