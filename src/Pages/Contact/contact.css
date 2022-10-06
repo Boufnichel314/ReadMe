@@ -204,7 +204,6 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
     .total{
         flex-direction: column-reverse;
         max-height: 50rem;
-        /* width: 40vh; */
     }
     .left{
         width: 100%;
@@ -271,9 +270,9 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
     }
     form input[type="submit"]{
         display: block;
-        font-size: 20px;
+        font-size: 17px;
         font-family: sans-serif;
         text-decoration: none;
-        margin-top: 0.5rem;
+        margin-top: 0.3rem;
         margin-left: 0;
 }}
