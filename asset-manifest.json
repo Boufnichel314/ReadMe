@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Readme/static/css/main.4dd9dae2.css",
-    "main.js": "/Readme/static/js/main.12cfa12e.js",
-    "static/css/568.94e001f9.chunk.css": "/Readme/static/css/568.94e001f9.chunk.css",
+    "main.js": "/Readme/static/js/main.dd3467ad.js",
+    "static/css/568.435169d2.chunk.css": "/Readme/static/css/568.435169d2.chunk.css",
     "static/js/568.b1842457.chunk.js": "/Readme/static/js/568.b1842457.chunk.js",
     "static/js/473.93a0f2a3.chunk.js": "/Readme/static/js/473.93a0f2a3.chunk.js",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/Readme/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
@@ -75,13 +75,13 @@
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
     "main.4dd9dae2.css.map": "/Readme/static/css/main.4dd9dae2.css.map",
-    "main.12cfa12e.js.map": "/Readme/static/js/main.12cfa12e.js.map",
-    "568.94e001f9.chunk.css.map": "/Readme/static/css/568.94e001f9.chunk.css.map",
+    "main.dd3467ad.js.map": "/Readme/static/js/main.dd3467ad.js.map",
+    "568.435169d2.chunk.css.map": "/Readme/static/css/568.435169d2.chunk.css.map",
     "568.b1842457.chunk.js.map": "/Readme/static/js/568.b1842457.chunk.js.map",
     "473.93a0f2a3.chunk.js.map": "/Readme/static/js/473.93a0f2a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd9dae2.css",
-    "static/js/main.12cfa12e.js"
+    "static/js/main.dd3467ad.js"
   ]
 }
