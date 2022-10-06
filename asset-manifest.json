@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Readme/static/css/main.0d9e6d88.css",
-    "main.js": "/Readme/static/js/main.1c001a11.js",
+    "main.css": "/Readme/static/css/main.a7756a8e.css",
+    "main.js": "/Readme/static/js/main.b880fb1a.js",
     "static/css/568.94e001f9.chunk.css": "/Readme/static/css/568.94e001f9.chunk.css",
     "static/js/568.b1842457.chunk.js": "/Readme/static/js/568.b1842457.chunk.js",
     "static/js/473.93a0f2a3.chunk.js": "/Readme/static/js/473.93a0f2a3.chunk.js",
@@ -51,6 +51,7 @@
     "static/media/جريمة قتل في الإسطبلات.jpg": "/Readme/static/media/جريمة قتل في الإسطبلات.297ddb78a5937577bc0f.jpg",
     "static/media/1984-George_Orwell.jpg": "/Readme/static/media/1984-George_Orwell.9656cdfcf64b34437ef4.jpg",
     "static/media/Le Meurtre de Roger Ackroyd.jfif": "/Readme/static/media/Le Meurtre de Roger Ackroyd.f6087f7c534472eabf80.jfif",
+    "static/media/Nothing for now.jpg": "/Readme/static/media/Nothing for now.25593a57c753ddc5e7c6.jpg",
     "static/media/keep-the-aspidistra-flying.jpg": "/Readme/static/media/keep-the-aspidistra-flying.659ce567f7f9939df853.jpg",
     "static/media/مزرعة الحيوان.jfif": "/Readme/static/media/مزرعة الحيوان.f62044ae78367c879fa4.jfif",
     "static/media/Dans-la-deche-a-Paris-et-a-Londres.jpg": "/Readme/static/media/Dans-la-deche-a-Paris-et-a-Londres.9831be0c3c303b8badde.jpg",
@@ -73,14 +74,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/Readme/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
-    "main.0d9e6d88.css.map": "/Readme/static/css/main.0d9e6d88.css.map",
-    "main.1c001a11.js.map": "/Readme/static/js/main.1c001a11.js.map",
+    "main.a7756a8e.css.map": "/Readme/static/css/main.a7756a8e.css.map",
+    "main.b880fb1a.js.map": "/Readme/static/js/main.b880fb1a.js.map",
     "568.94e001f9.chunk.css.map": "/Readme/static/css/568.94e001f9.chunk.css.map",
     "568.b1842457.chunk.js.map": "/Readme/static/js/568.b1842457.chunk.js.map",
     "473.93a0f2a3.chunk.js.map": "/Readme/static/js/473.93a0f2a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d9e6d88.css",
-    "static/js/main.1c001a11.js"
+    "static/css/main.a7756a8e.css",
+    "static/js/main.b880fb1a.js"
   ]
 }
