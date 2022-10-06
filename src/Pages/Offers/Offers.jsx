@@ -5,7 +5,9 @@ export default function Offers() {
   return (
     <AnimatedPages>
     <div className='containerr'>
-      <h1>Offers</h1>
+      <div className='offers'>
+      <img className='img' src={require('../../images/Nothing for now.jpg')}  alt="Dostoevsky"/>
+      </div>
     </div>
     </AnimatedPages>
   )
