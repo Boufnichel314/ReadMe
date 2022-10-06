@@ -1,3 +1,11 @@
+.containerr h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 .containerr{
     display: flex;
     flex-direction: column;

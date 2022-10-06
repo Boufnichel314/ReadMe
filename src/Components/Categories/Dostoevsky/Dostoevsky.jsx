@@ -5,6 +5,7 @@ import './dostoevsky.css'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import useMediaQuery from '../../useMediaQuery'
 export default function Dostoevsky(props) {
     const isMobile = useMediaQuery('(max-width: 768px)')
@@ -33,7 +34,11 @@ export default function Dostoevsky(props) {
     <div className='dostoevsky'>
         <div className="type">
         <h1>{props.Author}</h1>
-        <img className='img' src={props.profile} alt="Dostoevsky"/>
+        {/* <img className='img' src={props.profile} alt="Dostoevsky"/> */}
+        <LazyLoadImage src={props.profile}
+        width={600} height={400}
+        alt="Image Alt"
+      />
         </div>
         <Swiper
         slidesPerView={nmbr_slides}
@@ -50,7 +55,12 @@ export default function Dostoevsky(props) {
                 return (
                     <SwiperSlide key={index}>
                         <div className="book">
-                            <img className='img' src={item.profile} alt="Dostoevsky"/>
+                            {/* <img className='img' src={item.profile} alt="Dostoevsky"/> */}
+                            <LazyLoadImage className='img' src={item.profile}
+                            // width={600} height={400}
+                            alt="Image Alt"
+                             />
+                            
                             <div className="book-info">
                             <h1>{item.name}</h1>
                             </div>
