@@ -8,6 +8,7 @@ import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import { useDispatch, useSelector } from 'react-redux';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -133,6 +134,12 @@ if(onKeyPress === 'Enter') dispatch(login);
               <div className="nav-pc" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
               <div className="nav-pc" onClick={() => {handleNavigate(2)}}>العروض</div>
             </div>
+            <div className="cart">
+          <span>
+            <AddShoppingCartIcon />
+          </span>
+          <span>{0}</span>
+        </div>
           <Search className='search'>
             <SearchIconWrapper>
               <SearchIcon />
