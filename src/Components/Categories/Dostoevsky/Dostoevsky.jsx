@@ -32,7 +32,6 @@ export default function Dostoevsky(props) {
             }
         }, [isMobile, isTablet, isDesktop]
     )
-    const meskaf = ''
   return (
     <div className='dostoevsky'>
         <div className="type">
