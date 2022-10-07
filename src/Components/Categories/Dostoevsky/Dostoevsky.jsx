@@ -14,6 +14,8 @@ export default function Dostoevsky(props) {
     const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 960px)');
     const [nmbr, setNmbr] = useState(1);
     const [nmbr_slides, setNmbr_slides] = useState(1);
+    const [hover, setHover] = useState({display : 'flex'});
+    const [editIndex, setEditIndex]= useState(null);
     useEffect(
         () => {
             if (isMobile) {
@@ -30,7 +32,7 @@ export default function Dostoevsky(props) {
             }
         }, [isMobile, isTablet, isDesktop]
     )
-    console.log(props.data[0].name)
+    const meskaf = ''
   return (
     <div className='dostoevsky'>
         <div className="type">
@@ -55,17 +57,18 @@ export default function Dostoevsky(props) {
             props.data.map((item, index) => {
                 return (
                     <SwiperSlide key={index}>
-                        <div className="book">
+                        <div display = {hover} className="book" onMouseOver={() => {setEditIndex(editIndex => editIndex === index ? null : index)}} >
                             {/* <img className='img' src={item.profile} alt="Dostoevsky"/> */}
+                            {/* <h3>Ajouter</h3> */}
                             <LazyLoadImage className='img' src={item.profile}
                             width={'100%'} height={'100%'}
                             effect="blur"
                             alt="Image Alt"
                              />
-                            
                             <div className="book-info">
                             <h1>{item.name}</h1>
                             </div>
+                            {/* <h3>Ajouter</h3> */}
                         </div>
                     </SwiperSlide>
                 )
