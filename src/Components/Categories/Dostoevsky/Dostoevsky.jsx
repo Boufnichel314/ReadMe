@@ -68,6 +68,7 @@ export default function Dostoevsky(props) {
                             <h1>{item.name}</h1>
                             </div>
                             {/* <h3>Ajouter</h3> */}
+                            {editIndex === index && <h3>Ajouter</h3>}
                         </div>
                     </SwiperSlide>
                 )

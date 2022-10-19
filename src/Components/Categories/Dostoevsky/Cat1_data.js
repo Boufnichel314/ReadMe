@@ -14,7 +14,6 @@ import الجبن from '../Dostoevsky/images/self-development/من حرك قطع
 import workweek from '../Dostoevsky/images/self-development/The 4-Hour Workweek.jpg'
 import habitude from '../Dostoevsky/images/self-development/Le pouvoir des habitudes.jpg'
 import الفستق from '../Dostoevsky/images/self-development/نظرية الفستق.jpg'
-
 export  const Self_data = [
     {
       name : 'عادات للناس الأكثر فعالية.',
