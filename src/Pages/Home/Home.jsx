@@ -1,8 +1,9 @@
-import { useState } from 'react'
+// import { Container } from '@mui/system'
 import { useSelector } from 'react-redux'
 import AnimatedPages from '../../Components/AnimatedPages'
 import Categories from '../../Components/Categories/Categories'
 import './home.css'
+import Container from '@mui/material/Container'
 export default function Home() {
 const state = useSelector( state => state.userReducer.username )
 const style = {
@@ -16,22 +17,25 @@ else{
 }
   return (
     <AnimatedPages>
-    <div className='containerr home' style={style}>
-      <div className="home-container">
-      <div className="home-title">
-          <div className="title">
+    <Container maxWidth="80em">
+    <div className='Home_page'>
+      <div className='Home_container'>
+      <div className='Home_description'>
             <h1>ReadMe</h1>
             <p> <span> ريدمي </span>هي مكتبة لبيع كل الكتب بالعربية <br /> والفرنسية و الانجليزية <br /> و في جميع المدن المغربية</p>
           </div>
-        </div>
-        <div className="home-img">
-        <img className='img' src={require('../../images/lastdost2.png')}  alt="Dostoevsky"/>
+        <div className='Home_image'>
+        <img src={require('../../images/lastdost2.png')}  alt="Dostoevsky"/>
         </div>
       </div>
     </div>
-    <div className="categories" style={style}>
+    </Container>
+    {/* <div className="categories" style={style}>
     <Categories/>
-    </div>
+    </div> */}
     </AnimatedPages>
   )
 }
+
+
+    

@@ -175,10 +175,7 @@
     }
     .book .book-info{
         height: 50px;
-        /* position: relative;
-        position: absolute;
-        bottom: 0; */
-        /* border: 2px solid red; */
+
     }
     .book .book-info h1{
         margin-top: 3rem;
