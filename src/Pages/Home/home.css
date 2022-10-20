@@ -39,7 +39,7 @@ img {
     font-weight: 600;
 }
     .Home_container p{
-        font-size: 4rem;
+        font-size: 6rem;
     color: #e8e8e6;
     text-align: center;
     font-family: 'Vibes', cursive;
@@ -61,12 +61,25 @@ img {
     .Home_description h1{
         font-size: 10em;
     }
+    .Home_container p{
+        font-size: 4rem;
+    }
+    .Home_container p span{
+        font-size: 3rem;
+    }
 }
 @media screen and (max-width: 870px) {
     .Home_container{
         flex-direction: column;
+        justify-content: flex-start;
     }
     .Home_description h1{
         font-size: 5em;
+    }
+    .Home_container p{
+        font-size: 3rem;
+    }
+    .Home_container p span{
+        font-size: 2rem;
     }
 }

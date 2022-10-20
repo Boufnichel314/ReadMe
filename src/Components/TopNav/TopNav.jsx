@@ -134,6 +134,7 @@ if(onKeyPress === 'Enter') dispatch(login);
               <div className="nav-pc" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
               <div className="nav-pc" onClick={() => {handleNavigate(2)}}>العروض</div>
             </div>
+            <div className="searching">
             <div className="cart">
           <span>
             <AddShoppingCartIcon />
@@ -150,6 +151,7 @@ if(onKeyPress === 'Enter') dispatch(login);
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
+            </div>
         </Toolbar>
         <div className="navigation-mobile" style={mobilestyle[0]}>
               <div className="names">

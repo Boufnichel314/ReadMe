@@ -1,14 +1,13 @@
 .cart {
     cursor: pointer;
-    position: absolute;
-    right: 14rem;
     margin-top: 1rem;
   }
   .cart span:nth-child(1) {
-    font-size: 2rem;
+    font-size: 1em;
     color: white;
   }
   .cart span:nth-child(2) {
+    font-size: 1.6em;
     padding: 0 3px;
     background-color: red;
     color: white;
@@ -17,7 +16,12 @@
     position: relative;
     top: -15px;
   }
-
+.searching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
   /*Hhhhhhhhhhhhhhhhhhhhhhh*/
 
 .navbar{
@@ -53,15 +57,15 @@
 }
 .navigation-pc .nav-pc{
     margin: 0 1rem;
+    font-size: 1.6em;
+    cursor: pointer;
 }
 .search{
     margin-right: 1rem;
+    
 }
 .hidden{
     display: none;
-}
-.nav-pc{
-    cursor: pointer;
 }
 .nav-pc:hover{
     color: #e79b1a;
@@ -72,9 +76,6 @@
 /* Language: css */
 /*media query for mobile devices*/
 @media screen and (max-width: 768px){
-    .cart{
-        right: 0.5rem;
-    }
     .navbar{
         padding: 0.5rem 0;
         font-size: 1.5rem;
@@ -94,7 +95,7 @@
     }
     .search{
         margin: 0;
-        margin: 0 3rem 0 0;
+        margin: 0 0.5rem 0 0;
     }
     .hidden{
         display: flex;
@@ -183,5 +184,29 @@
         color: #fff;
         padding-left: 3px;
     }
-    
+    .cart{
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 1rem 1rem 0;
+        margin-left: 3.4rem;
+        margin-top: 0.7rem;
+    }
+    .cart span:nth-child(1){
+        font-size: 1rem;
+        color: #fff;
+        padding-left: 3px;
+    }
+    .cart span:nth-child(2){
+        font-size: 1.2rem;
+        padding: 0 3px;
+        background-color: red;
+        color: white;
+        font-weight: bolx;
+        border-radius: 5px;
+        position: relative;
+        top: -15px;
+    }
+
 }
