@@ -68,7 +68,7 @@ img {
         font-size: 3rem;
     }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 450px) {
     .Home_container{
         flex-direction: column;
         justify-content: flex-start;

@@ -20,8 +20,8 @@ function App() {
         <AnimatePresence exitBeforeEnter>
       <Routes >
         <Route path="/" element={<Home/>} exact/>
-        {/* <Route path="/contact" element={<Contact/>}/> */}
-        {/* <Route path="/offers" element={<Offers/>}/> */}
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/offers" element={<Offers/>}/>
       </Routes>
       </AnimatePresence>
       </Container>      
