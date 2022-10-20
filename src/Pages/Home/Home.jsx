@@ -17,7 +17,7 @@ else{
 }
   return (
     <AnimatedPages>
-    <Container maxWidth="80em">
+    <Container maxWidth = '80em' style = {{padding:'0', margin : '0'}}>
     <div className='Home_page'>
       <div className='Home_container'>
       <div className='Home_description'>
