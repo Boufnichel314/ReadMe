@@ -111,16 +111,17 @@
         height: 3px;
     }
     .navigation-mobile{
-        display: flex;
+        /* display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        background-color:rgb(255, 255, 255);
+        background-color:rgb(88, 77, 77);
         color: #000;
-        height: 18rem;
+        height: 30em;
         width:100%;
         transition: all 0.5s ease-out;
-        z-index: 1000;
+        z-index: 1000; */
+        
     }
     .names{
         margin: 1rem 0;
@@ -131,7 +132,6 @@
         width: 100%;
     }
     .nav-pc{
-        border: 3px solid #748e71;
         display: flex;
         justify-content: center;
         align-items: center;

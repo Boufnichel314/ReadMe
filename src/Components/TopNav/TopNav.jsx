@@ -57,7 +57,7 @@ export default function TopNav() {
   const [style, setStyle] = useState([]);
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState(0);
-  const [mobilestyle, setMobilestyle] = useState([{display: 'none'}]);
+  const [mobilestyle, setMobilestyle] = useState({opacity: 1});
   const navigate = useNavigate();
   useEffect(() => { 
     if(value === 0) navigate("/");
@@ -74,8 +74,8 @@ export default function TopNav() {
   /////////////////////////////////////////////
   const newStyle = [
     {
-      transition: 'all 0.5s ease-in-out',
-      transform: 'rotate(90deg)',
+      transition: 'all 0.7s ease-in-out',
+      transform: 'rotate(450deg)',
       marginTop: '0.7rem',
     },
     {
@@ -84,21 +84,22 @@ export default function TopNav() {
     {
       position : 'absolute',
       top : '0.7rem',
-      transition: 'all 0.3s ease-in-out'
+      transition: 'all 0.7s ease-in-out'
     }
-  ]
-  const trueMobileStyle = [
+  ];
+  const trueMobileStyle =
     {
-      display: 'flex'
-    }]
-  const falseMobileStyle = [
+      display: 'flex',
+  transform: 'scale(1)',
+  transition: 'all 300ms',
+      
+    }
+  const falseMobileStyle =
     {
       display: 'none',
-      opacity: 0,
-      transition: "opacity .3s ease-in-out, transform .3s ease-in-out",
-      animation: "hide 2s",
-	    transition: "opacity 2s",
-    }]
+  transform: 'scale(1.1)',
+  transition: 'all 300ms',
+    }
   const handleStyleChange = () => {
     setStyle(newStyle);
   };
@@ -109,8 +110,6 @@ export default function TopNav() {
     handleToggle();
     toggle ? handleStyleChange() : setStyle([{transition: 'all 0.5s ease-in-out'}]);
     toggle ? setMobilestyle(trueMobileStyle) : setMobilestyle(falseMobileStyle);
-    
-
   };
 ///////////////////Testing////////////////////////////////
 const dispatch = useDispatch();
@@ -153,7 +152,7 @@ if(onKeyPress === 'Enter') dispatch(login);
           </Search>
             </div>
         </Toolbar>
-        <div className="navigation-mobile" style={mobilestyle[0]}>
+        <div className="navigation-mobile" style={mobilestyle}>
               <div className="names">
               <div className="nav-pc" onClick={() => {handleNavigate(0); handleClick()}}>الرئيسية</div>
               <div className="nav-pc" onClick={() => {handleNavigate(1); handleClick()}}>اتصل بنا</div>
