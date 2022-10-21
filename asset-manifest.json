@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Readme/static/css/main.96700b03.css",
-    "main.js": "/Readme/static/js/main.038f627b.js",
-    "static/css/568.015e515b.chunk.css": "/Readme/static/css/568.015e515b.chunk.css",
-    "static/js/568.35b35dac.chunk.js": "/Readme/static/js/568.35b35dac.chunk.js",
+    "main.js": "/Readme/static/js/main.a45aa94d.js",
+    "static/css/568.51be23fe.chunk.css": "/Readme/static/css/568.51be23fe.chunk.css",
+    "static/js/568.3da5f553.chunk.js": "/Readme/static/js/568.3da5f553.chunk.js",
     "static/js/0.4ed1df01.chunk.js": "/Readme/static/js/0.4ed1df01.chunk.js",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/Readme/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
     "static/media/animal-farm.png": "/Readme/static/media/animal-farm.ca56b9ff7c842da43636.png",
@@ -75,13 +75,13 @@
     "static/media/الابله.jfif": "/Readme/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/Readme/index.html",
     "main.96700b03.css.map": "/Readme/static/css/main.96700b03.css.map",
-    "main.038f627b.js.map": "/Readme/static/js/main.038f627b.js.map",
-    "568.015e515b.chunk.css.map": "/Readme/static/css/568.015e515b.chunk.css.map",
-    "568.35b35dac.chunk.js.map": "/Readme/static/js/568.35b35dac.chunk.js.map",
+    "main.a45aa94d.js.map": "/Readme/static/js/main.a45aa94d.js.map",
+    "568.51be23fe.chunk.css.map": "/Readme/static/css/568.51be23fe.chunk.css.map",
+    "568.3da5f553.chunk.js.map": "/Readme/static/js/568.3da5f553.chunk.js.map",
     "0.4ed1df01.chunk.js.map": "/Readme/static/js/0.4ed1df01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96700b03.css",
-    "static/js/main.038f627b.js"
+    "static/js/main.a45aa94d.js"
   ]
 }
