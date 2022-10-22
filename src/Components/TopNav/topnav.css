@@ -70,11 +70,15 @@
 .nav-pc:hover{
     color: #e79b1a;
 }
-.navigation-mobile{
-    display: none
+.navActive{
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
 }
-/* Language: css */
-/*media query for mobile devices*/
+/* .navigation-mobile{
+    visibility: hidden;
+    opacity: 0;
+} */
 @media screen and (max-width: 768px){
     .navbar{
         padding: 0.5rem 0;
@@ -86,6 +90,16 @@
         position: fixed;
         top: 0;
         z-index: 100;
+        transition: 1s;
+    }
+    .navActive{
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.5s ease;
+        height: 82vh;
+        flex-direction: column;
+        transition: 1s;
+        transform: translateY(10em);
     }
     .readme{
         display: none;
@@ -111,17 +125,11 @@
         height: 3px;
     }
     .navigation-mobile{
-        /* display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: flex;
+        height: 60%;
         flex-direction: column;
-        background-color:rgb(88, 77, 77);
-        color: #000;
-        height: 30em;
-        width:100%;
-        transition: all 0.5s ease-out;
-        z-index: 1000; */
-        
+        justify-content: space-around;
+        align-items: center;
     }
     .names{
         margin: 1rem 0;
@@ -205,6 +213,9 @@
         border-radius: 5px;
         position: relative;
         top: -15px;
+    }
+    .cartHid{
+        display: none;
     }
 
 }

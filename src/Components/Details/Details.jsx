@@ -1,6 +1,6 @@
 import React from 'react'
 import './details.css'
-export default function Details({bookName,bookAuthor,bookImg}) {
+export default function Details({bookName,bookImg}) {
   return (
     <div className='details'>
         <div className="image">

@@ -57,7 +57,7 @@ export default function TopNav() {
   const [style, setStyle] = useState([]);
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState(0);
-  const [mobilestyle, setMobilestyle] = useState({opacity: 1});
+  // const [mobilestyle, setMobilestyle] = useState({opacity: 1});
   const navigate = useNavigate();
   useEffect(() => { 
     if(value === 0) navigate("/");
@@ -109,7 +109,7 @@ export default function TopNav() {
   const handleClick = () => {
     handleToggle();
     toggle ? handleStyleChange() : setStyle([{transition: 'all 0.5s ease-in-out'}]);
-    toggle ? setMobilestyle(trueMobileStyle) : setMobilestyle(falseMobileStyle);
+    // toggle ? setMobilestyle(trueMobileStyle) : setMobilestyle(falseMobileStyle);
   };
 ///////////////////Testing////////////////////////////////
 const dispatch = useDispatch();
@@ -119,8 +119,8 @@ if(onKeyPress === 'Enter') dispatch(login);
   return (
     <div className='TopBar'>
         <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar className='navbar'>
+      {/* <AppBar position="static"> */}
+        <Toolbar className={`navbar ${!toggle ? "navActive" : ""}`}>
         <div className="hidden" onClick={handleClick}>
           <div className="hid" style={style[0]}></div>
           <div className="hid" style={style[1]}></div>
@@ -128,13 +128,13 @@ if(onKeyPress === 'Enter') dispatch(login);
         </div>
             <div className="readme">
             </div>
-            <div className="navigation-pc">
-              <div className="nav-pc" onClick={() => {handleNavigate(0)}}>الرئيسية</div>
-              <div className="nav-pc" onClick={() => {handleNavigate(1)}}>اتصل بنا</div>
-              <div className="nav-pc" onClick={() => {handleNavigate(2)}}>العروض</div>
+            <div className={`navigation-pc ${!toggle ? "navigation-mobile" : ""}`}>
+              <div className="nav-pc" onClick={() => {handleNavigate(0); handleClick()}}>الرئيسية</div>
+              <div className="nav-pc" onClick={() => {handleNavigate(1); handleClick()}}>اتصل بنا</div>
+              <div className="nav-pc" onClick={() => {handleNavigate(2); handleClick()}}>العروض</div>
             </div>
             <div className="searching">
-            <div className="cart">
+            <div className={`cart ${!toggle ? "cartHid" : ""}`}>
           <span>
             <AddShoppingCartIcon />
           </span>
@@ -152,7 +152,7 @@ if(onKeyPress === 'Enter') dispatch(login);
           </Search>
             </div>
         </Toolbar>
-        <div className="navigation-mobile" style={mobilestyle}>
+        {/* <div className="navigation-mobile" style={mobilestyle}>
               <div className="names">
               <div className="nav-pc" onClick={() => {handleNavigate(0); handleClick()}}>الرئيسية</div>
               <div className="nav-pc" onClick={() => {handleNavigate(1); handleClick()}}>اتصل بنا</div>
@@ -163,8 +163,8 @@ if(onKeyPress === 'Enter') dispatch(login);
                 <div className="social"><h4>@Readme314</h4></div>
               </div>
 
-        </div>
-      </AppBar>
+        </div> */}
+      {/* </AppBar> */}
     </Box>
     {onKeyPress === 'Enter' ? <Api searchValue={searchh} /> : null}
     </div>
