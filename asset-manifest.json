@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReadMe/static/css/main.8c94d050.css",
-    "main.js": "/ReadMe/static/js/main.2ad0265b.js",
+    "main.css": "/ReadMe/static/css/main.19d6a7c0.css",
+    "main.js": "/ReadMe/static/js/main.2b8f2e0b.js",
     "static/css/568.eae95c6a.chunk.css": "/ReadMe/static/css/568.eae95c6a.chunk.css",
     "static/js/568.e0f78f58.chunk.js": "/ReadMe/static/js/568.e0f78f58.chunk.js",
     "static/js/925.55e83b93.chunk.js": "/ReadMe/static/js/925.55e83b93.chunk.js",
@@ -74,14 +74,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/ReadMe/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
-    "main.8c94d050.css.map": "/ReadMe/static/css/main.8c94d050.css.map",
-    "main.2ad0265b.js.map": "/ReadMe/static/js/main.2ad0265b.js.map",
+    "main.19d6a7c0.css.map": "/ReadMe/static/css/main.19d6a7c0.css.map",
+    "main.2b8f2e0b.js.map": "/ReadMe/static/js/main.2b8f2e0b.js.map",
     "568.eae95c6a.chunk.css.map": "/ReadMe/static/css/568.eae95c6a.chunk.css.map",
     "568.e0f78f58.chunk.js.map": "/ReadMe/static/js/568.e0f78f58.chunk.js.map",
     "925.55e83b93.chunk.js.map": "/ReadMe/static/js/925.55e83b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c94d050.css",
-    "static/js/main.2ad0265b.js"
+    "static/css/main.19d6a7c0.css",
+    "static/js/main.2b8f2e0b.js"
   ]
 }
