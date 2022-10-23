@@ -127,7 +127,7 @@ if(onKeyPress === 'Enter') dispatch(login);
           </span>
           <span>{0}</span>
         </div>
-          <Search className='search'>
+          <Search className={`search ${!toggle ? "searchHidden" : ""}`}>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
