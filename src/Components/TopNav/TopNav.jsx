@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect} from 'react';
+import useMediaQuery from 'beautiful-react-hooks/useMediaQuery';
 import './topnav.css'
 import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -8,7 +9,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector} from 'react-redux';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -51,14 +52,12 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 export default function TopNav() {
-  const [myredux, setMyredux] = useState(false);
+  const isSmall = useMediaQuery('(max-width: 48rem)');
   const [searchh, setSearchh] = useState('');
   const [onKeyPress, setOnKeyPress] = useState('');
-  // const [onnavState, setOnavState] = useState('');
   const [style, setStyle] = useState([]);
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState(0);
-  // const [mobilestyle, setMobilestyle] = useState({opacity: 1});
   const navigate = useNavigate();
   useEffect(() => { 
     if(value === 0) navigate("/");
@@ -94,9 +93,10 @@ export default function TopNav() {
     setToggle(!toggle);
   };
   const handleClick = () => {
-    handleToggle();
+    if(isSmall){
+      handleToggle();
     toggle ? handleStyleChange() : setStyle([{transition: 'all 0.5s ease-in-out'}]);
-    // toggle ? setMobilestyle(trueMobileStyle) : setMobilestyle(falseMobileStyle);
+    }
   };
 ///////////////////Testing////////////////////////////////
 const dispatch = useDispatch();
