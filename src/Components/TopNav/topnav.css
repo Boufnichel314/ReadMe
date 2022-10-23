@@ -70,15 +70,6 @@
 .nav-pc:hover{
     color: #e79b1a;
 }
-.navActive{
-    visibility: hidden;
-    opacity: 0;
-    transition: 1s;
-}
-/* .navigation-mobile{
-    visibility: hidden;
-    opacity: 0;
-} */
 @media screen and (max-width: 768px){
     .navbar{
         padding: 0.5rem 0;

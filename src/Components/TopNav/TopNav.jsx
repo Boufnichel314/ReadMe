@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import './topnav.css'
 import { styled, alpha } from '@mui/material/styles';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
@@ -52,8 +51,10 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 export default function TopNav() {
+  const [myredux, setMyredux] = useState(false);
   const [searchh, setSearchh] = useState('');
   const [onKeyPress, setOnKeyPress] = useState('');
+  // const [onnavState, setOnavState] = useState('');
   const [style, setStyle] = useState([]);
   const [toggle, setToggle] = useState(true);
   const [value, setValue] = useState(0);
@@ -70,7 +71,6 @@ export default function TopNav() {
   };
   useEffect(() =>
   dispatch(login), [handleNavigate]);
-
   /////////////////////////////////////////////
   const newStyle = [
     {
@@ -87,19 +87,6 @@ export default function TopNav() {
       transition: 'all 0.7s ease-in-out'
     }
   ];
-  const trueMobileStyle =
-    {
-      display: 'flex',
-  transform: 'scale(1)',
-  transition: 'all 300ms',
-      
-    }
-  const falseMobileStyle =
-    {
-      display: 'none',
-  transform: 'scale(1.1)',
-  transition: 'all 300ms',
-    }
   const handleStyleChange = () => {
     setStyle(newStyle);
   };
@@ -113,7 +100,7 @@ export default function TopNav() {
   };
 ///////////////////Testing////////////////////////////////
 const dispatch = useDispatch();
-const login = () => {dispatch({ type: 'SET_USER', payload: onKeyPress }) }
+const login = () => {dispatch({ type: 'SET_USER', payload: true ? (onKeyPress === 'Enter' || !toggle) : false }) }
 const state = useSelector( state => state.userReducer.username );
 if(onKeyPress === 'Enter') dispatch(login);
   return (

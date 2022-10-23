@@ -9,7 +9,7 @@ const state = useSelector( state => state.userReducer.username )
 const style = {
   display: 'flex',
 }
-if(state === 'Enter'){
+if(state) {
   style.display = 'none'
 }
 else{
@@ -18,7 +18,7 @@ else{
   return (
     <AnimatedPages>
     <Container maxWidth = '80em' style = {{padding:'0', margin : '0'}}>
-    <div className='Home_page'>
+    <div className='Home_page' style = {style}>
       <div className='Home_container'>
       <div className='Home_description'>
             <h1>ReadMe</h1>
