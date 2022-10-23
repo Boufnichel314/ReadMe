@@ -15,9 +15,9 @@ export default function Categories() {
     <div className='categories'>
         <Dostoevsky profile = {dost} Author = 'Fyodor Dostoevsky' data = {Dostoevsky_data}/>
         <Dostoevsky profile = {Agatha} Author = 'Agatha Christie' data= {Agatha_data} />
-        {/* <Dostoevsky profile = {Goerge} Author = 'Goerge Orwell' data= {George_data} />
+        <Dostoevsky profile = {Goerge} Author = 'Goerge Orwell' data= {George_data} />
         <Dostoevsky profile = {Coelho} Author = 'Paulo Coelho' data= {Paulo_data} />
-        <Dostoevsky profile = {Self} Author = 'Self Development' data= {Self_data} /> */}
+        <Dostoevsky profile = {Self} Author = 'Self Development' data= {Self_data} />
     </div>
   )
 }
