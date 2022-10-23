@@ -29,10 +29,10 @@ else{
         </div>
       </div>
     </div>
-    </Container>
     <div className="categories" style={style}>
     <Categories/>
     </div>
+    </Container>
     </AnimatedPages>
   )
 }

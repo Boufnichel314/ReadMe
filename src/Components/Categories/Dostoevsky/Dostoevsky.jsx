@@ -63,7 +63,7 @@ export default function Dostoevsky(props) {
                             alt="Image Alt"
                              />
                             <div className="book-info">
-                            <h1>{item.name}</h1>
+                            {/* <h1>{item.name}</h1> */}
                             </div>
                         </div>
                     </SwiperSlide>
