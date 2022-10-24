@@ -54,7 +54,8 @@ export default function Dostoevsky(props) {
             props.data.map((item, index) => {
                 return (
                     <SwiperSlide key={index}>
-                        <div className="book">
+                        <a href="https://wa.me/+212771487686">
+                        <div className="book" >
                             {/* <img className='img' src={item.profile} alt="Dostoevsky"/> */}
                             {/* <h3>Ajouter</h3> */}
                             <LazyLoadImage className='img' src={item.profile}
@@ -66,6 +67,7 @@ export default function Dostoevsky(props) {
                             {/* <h1>{item.name}</h1> */}
                             </div>
                         </div>
+                        </a>
                     </SwiperSlide>
                 )
             }
