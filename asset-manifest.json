@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReadMe/static/css/main.80aa6214.css",
-    "main.js": "/ReadMe/static/js/main.c61866d0.js",
-    "static/css/568.eae95c6a.chunk.css": "/ReadMe/static/css/568.eae95c6a.chunk.css",
-    "static/js/568.e0f78f58.chunk.js": "/ReadMe/static/js/568.e0f78f58.chunk.js",
-    "static/js/925.55e83b93.chunk.js": "/ReadMe/static/js/925.55e83b93.chunk.js",
+    "main.css": "/ReadMe/static/css/main.adcaddc4.css",
+    "main.js": "/ReadMe/static/js/main.67ed6152.js",
+    "static/css/568.54ab395f.chunk.css": "/ReadMe/static/css/568.54ab395f.chunk.css",
+    "static/js/568.20c1165e.chunk.js": "/ReadMe/static/js/568.20c1165e.chunk.js",
+    "static/js/76.4d9e29ff.chunk.js": "/ReadMe/static/js/76.4d9e29ff.chunk.js",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/ReadMe/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
     "static/media/animal-farm.png": "/ReadMe/static/media/animal-farm.ca56b9ff7c842da43636.png",
     "static/media/La Maison biscornue.jpg": "/ReadMe/static/media/La Maison biscornue.e423574e804f849c7aa7.jpg",
@@ -37,7 +37,6 @@
     "static/media/7 عادات للناس الأكثر فعالية.jpg": "/ReadMe/static/media/7 عادات للناس الأكثر فعالية.2f10426fae4c03386756.jpg",
     "static/media/Coelho.jpg.jpg": "/ReadMe/static/media/Coelho.jpg.aca5f8342734d7f57c09.jpg",
     "static/media/Idiot.jpg": "/ReadMe/static/media/Idiot.e0d737de350f6e6002de.jpg",
-    "static/media/contact.jpeg": "/ReadMe/static/media/contact.d07359945685a67e4df1.jpeg",
     "static/media/dostoevsky_photo.jpg": "/ReadMe/static/media/dostoevsky_photo.7d6d9f9db694082144d1.jpg",
     "static/media/The Alchemist.jpeg": "/ReadMe/static/media/The Alchemist.5bb5d2c0fa63934e162c.jpeg",
     "static/media/hurt.jpg": "/ReadMe/static/media/hurt.652bea2274fe3a8f1fdc.jpg",
@@ -74,14 +73,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/ReadMe/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
-    "main.80aa6214.css.map": "/ReadMe/static/css/main.80aa6214.css.map",
-    "main.c61866d0.js.map": "/ReadMe/static/js/main.c61866d0.js.map",
-    "568.eae95c6a.chunk.css.map": "/ReadMe/static/css/568.eae95c6a.chunk.css.map",
-    "568.e0f78f58.chunk.js.map": "/ReadMe/static/js/568.e0f78f58.chunk.js.map",
-    "925.55e83b93.chunk.js.map": "/ReadMe/static/js/925.55e83b93.chunk.js.map"
+    "main.adcaddc4.css.map": "/ReadMe/static/css/main.adcaddc4.css.map",
+    "main.67ed6152.js.map": "/ReadMe/static/js/main.67ed6152.js.map",
+    "568.54ab395f.chunk.css.map": "/ReadMe/static/css/568.54ab395f.chunk.css.map",
+    "568.20c1165e.chunk.js.map": "/ReadMe/static/js/568.20c1165e.chunk.js.map",
+    "76.4d9e29ff.chunk.js.map": "/ReadMe/static/js/76.4d9e29ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80aa6214.css",
-    "static/js/main.c61866d0.js"
+    "static/css/main.adcaddc4.css",
+    "static/js/main.67ed6152.js"
   ]
 }
