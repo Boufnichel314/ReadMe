@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReadMe/static/css/main.adcaddc4.css",
-    "main.js": "/ReadMe/static/js/main.67ed6152.js",
+    "main.css": "/ReadMe/static/css/main.33b7e7f6.css",
+    "main.js": "/ReadMe/static/js/main.990f46df.js",
     "static/css/568.54ab395f.chunk.css": "/ReadMe/static/css/568.54ab395f.chunk.css",
     "static/js/568.20c1165e.chunk.js": "/ReadMe/static/js/568.20c1165e.chunk.js",
     "static/js/76.4d9e29ff.chunk.js": "/ReadMe/static/js/76.4d9e29ff.chunk.js",
@@ -21,7 +21,6 @@
     "static/media/alchimiste.jpg": "/ReadMe/static/media/alchimiste.5164499412f9c0e9ab8d.jpg",
     "static/media/La puissance de la pensée positive.jpg": "/ReadMe/static/media/La puissance de la pensée positive.2ae649ed94d5dd170fe1.jpg",
     "static/media/README.png": "/ReadMe/static/media/README.79c8262419135b850c9d.png",
-    "static/media/cover.png": "/ReadMe/static/media/cover.a06ef287f7cf5bf3c84b.png",
     "static/media/Agatha_Christie.png": "/ReadMe/static/media/Agatha_Christie.49452e008a6ead2aebad.png",
     "static/media/من حرك قطعة الجبن الخاصة بي؟.jpg": "/ReadMe/static/media/من حرك قطعة الجبن الخاصة بي؟.7091e2f88ac2872607c2.jpg",
     "static/media/homage-to-catalonia.jpg": "/ReadMe/static/media/homage-to-catalonia.0e7fac4c69d89d57ae9e.jpg",
@@ -73,14 +72,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/ReadMe/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
-    "main.adcaddc4.css.map": "/ReadMe/static/css/main.adcaddc4.css.map",
-    "main.67ed6152.js.map": "/ReadMe/static/js/main.67ed6152.js.map",
+    "main.33b7e7f6.css.map": "/ReadMe/static/css/main.33b7e7f6.css.map",
+    "main.990f46df.js.map": "/ReadMe/static/js/main.990f46df.js.map",
     "568.54ab395f.chunk.css.map": "/ReadMe/static/css/568.54ab395f.chunk.css.map",
     "568.20c1165e.chunk.js.map": "/ReadMe/static/js/568.20c1165e.chunk.js.map",
     "76.4d9e29ff.chunk.js.map": "/ReadMe/static/js/76.4d9e29ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adcaddc4.css",
-    "static/js/main.67ed6152.js"
+    "static/css/main.33b7e7f6.css",
+    "static/js/main.990f46df.js"
   ]
 }
