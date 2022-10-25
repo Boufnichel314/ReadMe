@@ -4,7 +4,6 @@ import styled from "styled-components";
 import AnimatedPages from '../../Components/AnimatedPages'
 import './contact.css'
 import { useSelector } from "react-redux";
-// npm i @emailjs/browser
 
 const Contact = () => {
   const form = useRef();
@@ -40,22 +39,16 @@ else{
 }
   return (
     <AnimatedPages>
-    {/* <StyledContactForm> */}
-      <div className="total" style = {style}>
-      <div className="left">
-      <div className="contact">
+      {/* <div className="contact" style = {style}>
       <form ref={form} onSubmit={sendEmail}>
         <div className="input">
         <input type="text" placeholder="اسمك الكامل" name="user_name" />
-        {/* <label>الاسم</label> */}
         </div>
         <div className="input">
         <input type="email" placeholder="البريد الالكتروني"  name="user_email" />
-        {/* <label>البريد الالكتروني</label> */}
         </div>
         <div className="input">
         <textarea name="message" placeholder="رسالتك" />
-        {/* <label>الرسالة</label> */}
         </div>
         <div class="wrapper">
         <input type="submit" value="ارسال" />
@@ -64,13 +57,10 @@ else{
       </div>
       <div className="background">
       <img className='img' src={require('../../images/cover.png')}  alt="Dostoevsky"/>
+      </div> */}
+      <div className="contact-page">
+        <div className="contact-form"></div>
       </div>
-      </div>
-      <div className="right">
-      <div className="back"></div>
-      </div>
-      </div>
-    {/* </StyledContactForm> */}
     </AnimatedPages>
   );
 };

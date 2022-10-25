@@ -21,8 +21,20 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    width: 100%;
+    max-width: 16em;
+    height: 2.6em;
+    min-height: 1em;
 }
-  /*Hhhhhhhhhhhhhhhhhhhhhhh*/
+.search{
+    margin-right: 1rem;
+    width: 100% !important;
+    max-width: 16em;
+    height: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .navbar{
     background-color: #000;
@@ -59,10 +71,6 @@
     margin: 0 1rem;
     font-size: 1.6em;
     cursor: pointer;
-}
-.search{
-    margin-right: 1rem;
-    
 }
 .hidden{
     display: none;

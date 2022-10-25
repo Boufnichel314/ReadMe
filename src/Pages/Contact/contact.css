@@ -1,4 +1,4 @@
-.containerr h1{
+/* .containerr h1{
     font-size: 50px;
     color: #fff;
     text-align: center;
@@ -43,9 +43,6 @@ margin-top: 2rem;
     width: 100%;
     height: 100%;
 }
-form{
-    /* border: 2px solid red; */
-}
 .input{
     display: flex;
     justify-content: space-between;
@@ -83,13 +80,6 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
     top: 1rem;
     opacity: 0.7;
 }
-
-.wrapper{
-    /* border: 2px solid red; */
-    
-    /* transform: translate(-50%, -50%); */
-  }
-  
   form input[type="submit"]{
     display: block;
     font-size: 24px;
@@ -107,11 +97,9 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
   
   form input[type="submit"]:hover{
     letter-spacing: 10px;
-    /* font-size: 2rem; */
     
   }
 
-  /*mobile versions*/
     @media screen and (max-width: 768px){
         .containerr h1{
             font-size: 30px;
@@ -120,7 +108,6 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
         .total{
             flex-direction: column-reverse;
             max-height: 60rem;
-            /* width: 40vh; */
         }
         .left{
             width: 100%;
@@ -179,7 +166,7 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
             opacity: 0.7;
         }
         .wrapper{
-            /* transform: translate(-50%, -50%); */
+
             width: 100%;
             display: flex-start;
             justify-content: center;
@@ -194,8 +181,6 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
             margin-top: 0.6rem;
             color: #333}}
 
-/* Language: css */
-/* Path: src/Pages/Contact/contact.css */
 @media screen and (max-width: 375px){
     .containerr h1{
         font-size: 30px;
@@ -262,7 +247,6 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
         opacity: 0.7;
     }
     .wrapper{
-        /* transform: translate(-50%, -50%); */
         width: 100%;
         display: flex-start;
         justify-content: center;
@@ -275,4 +259,19 @@ form input[type="text"]::-webkit-input-placeholder, form input[type="email"]::-w
         text-decoration: none;
         margin-top: 0.3rem;
         margin-left: 0;
-}}
+}} */
+
+.contact-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../../images/cover.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    margin: 3px auto 0;
+    position: relative;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}

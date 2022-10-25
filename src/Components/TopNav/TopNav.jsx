@@ -8,7 +8,6 @@ import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import { useDispatch, useSelector} from 'react-redux';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -121,15 +120,9 @@ if(onKeyPress === 'Enter') dispatch(login);
               <div className="nav-pc" onClick={() => {handleNavigate(2); handleClick()}}>العروض</div>
             </div>
             <div className="searching">
-            <div className={`cart ${!toggle ? "cartHid" : ""}`}>
-          <span>
-            <AddShoppingCartIcon />
-          </span>
-          <span>{0}</span>
-        </div>
           <Search className={`search ${!toggle ? "searchHidden" : ""}`}>
             <SearchIconWrapper>
-              <SearchIcon />
+              <SearchIcon/>
             </SearchIconWrapper>
             <StyledInputBase 
               onChange={(e)=>setSearchh(e.target.value)} onKeyPress={(e)=>setOnKeyPress(e.key)}
@@ -139,19 +132,6 @@ if(onKeyPress === 'Enter') dispatch(login);
           </Search>
             </div>
         </Toolbar>
-        {/* <div className="navigation-mobile" style={mobilestyle}>
-              <div className="names">
-              <div className="nav-pc" onClick={() => {handleNavigate(0); handleClick()}}>الرئيسية</div>
-              <div className="nav-pc" onClick={() => {handleNavigate(1); handleClick()}}>اتصل بنا</div>
-              <div className="nav-pc" onClick={() => {handleNavigate(2); handleClick()}}>العروض</div>
-              </div>
-              <div className="icons">
-                <div className="logo-mobile"></div>
-                <div className="social"><h4>@Readme314</h4></div>
-              </div>
-
-        </div> */}
-      {/* </AppBar> */}
     </Box>
     {onKeyPress === 'Enter' ? <Api searchValue={searchh} /> : null}
     </div>
