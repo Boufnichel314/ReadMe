@@ -59,7 +59,22 @@ else{
       <img className='img' src={require('../../images/cover.png')}  alt="Dostoevsky"/>
       </div> */}
       <div className="contact-page">
-        <div className="contact-form"></div>
+        <div className="contact-form">
+        <form ref={form} onSubmit={sendEmail}>
+        <div className="input">
+        <input type="text" placeholder="اسمك الكامل" name="user_name" />
+        </div>
+        <div className="input">
+        <input type="email" placeholder="البريد الالكتروني"  name="user_email" />
+        </div>
+        <div className="input">
+        <textarea name="message" placeholder="رسالتك" />
+        </div>
+        <div class="wrapper">
+        <input type="submit" value="ارسال" />
+        </div>  
+      </form>
+        </div>
       </div>
     </AnimatedPages>
   );
