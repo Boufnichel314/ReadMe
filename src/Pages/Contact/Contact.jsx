@@ -1,10 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef} from "react";
 import emailjs from "@emailjs/browser";
-import styled from "styled-components";
 import AnimatedPages from '../../Components/AnimatedPages'
+import { useAlert } from 'react-alert'
 import './contact.css'
 import { useSelector } from "react-redux";
-
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -20,13 +19,13 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+  
   const state = useSelector( state => state.userReducer.username )
 const style = {
   display: 'flex',
@@ -37,27 +36,9 @@ if(state) {
 else{
   style.display = 'flex'
 }
+const alert = useAlert()
   return (
     <AnimatedPages>
-      {/* <div className="contact" style = {style}>
-      <form ref={form} onSubmit={sendEmail}>
-        <div className="input">
-        <input type="text" placeholder="اسمك الكامل" name="user_name" />
-        </div>
-        <div className="input">
-        <input type="email" placeholder="البريد الالكتروني"  name="user_email" />
-        </div>
-        <div className="input">
-        <textarea name="message" placeholder="رسالتك" />
-        </div>
-        <div class="wrapper">
-        <input type="submit" value="ارسال" />
-        </div>  
-      </form>
-      </div>
-      <div className="background">
-      <img className='img' src={require('../../images/cover.png')}  alt="Dostoevsky"/>
-      </div> */}
       <div className="contact-page" style = {style}>
         <div className="contact-form">
         <form ref={form} onSubmit={sendEmail}>
@@ -71,7 +52,9 @@ else{
         <textarea name="message" placeholder="رسالتك" />
         </div>
         <div class="wrapper input">
-        <input type="submit" value="ارسال" />
+        <input type="submit" value="ارسال" onClick={() => {
+        alert.show('Your message has been sent')
+      }} />
         </div>  
       </form>
         </div>
