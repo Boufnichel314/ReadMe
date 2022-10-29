@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState, lazy, Suspense } from 'react'
+import {  SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import './dostoevsky.css'
 import "swiper/css";
@@ -30,11 +30,12 @@ export default function Dostoevsky(props) {
             }
         }, [isMobile, isTablet, isDesktop]
     )
+    const Swiper = lazy(() => import("swiper/react").then((module) => ({ default: module.Swiper })));
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <div className='dostoevsky'>
         <div className="type">
         <h1>{props.Author}</h1>
-        {/* <img className='img' src={props.profile} alt="Dostoevsky"/> */}
         <LazyLoadImage src={props.profile}
         width={600} height={400}
         alt="Image Alt"
@@ -56,15 +57,12 @@ export default function Dostoevsky(props) {
                     <SwiperSlide key={index}>
                         <a href="https://wa.me/+212771487686">
                         <div className="book" >
-                            {/* <img className='img' src={item.profile} alt="Dostoevsky"/> */}
-                            {/* <h3>Ajouter</h3> */}
                             <LazyLoadImage className='img' src={item.profile}
                             width={'100%'} height={'100%'}
                             effect="blur"
                             alt="Image Alt"
                              />
                             <div className="book-info">
-                            {/* <h1>{item.name}</h1> */}
                             </div>
                         </div>
                         </a>
@@ -74,5 +72,6 @@ export default function Dostoevsky(props) {
             )}
       </Swiper>
     </div>
+    </Suspense>
   )
 }

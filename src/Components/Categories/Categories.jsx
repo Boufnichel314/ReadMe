@@ -1,5 +1,5 @@
+import {lazy, Suspense} from 'react';
 import './categories.css'
-import Dostoevsky from './Dostoevsky/Dostoevsky'
 import dost from '../Categories/Dostoevsky/images/dostoevsky/dostoevsky_photo.jpg'
 import Agatha from '../Categories/Dostoevsky/images/Agatha/Agatha_Christie.png'
 import Goerge from './Dostoevsky/images/George Orwell/Goerge.jpg'
@@ -11,7 +11,9 @@ import {Agatha_data} from './/Dostoevsky/Cat3_data.js'
 import {George_data} from './/Dostoevsky/Cat4_data.js'
 import {Paulo_data} from './/Dostoevsky/Cat6_data.js'
 export default function Categories() {
+  const Dostoevsky = lazy(() => import('./Dostoevsky/Dostoevsky'))
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <div className='categories'>
         <Dostoevsky profile = {dost} Author = 'Fyodor Dostoevsky' data = {Dostoevsky_data}/>
         <Dostoevsky profile = {Agatha} Author = 'Agatha Christie' data= {Agatha_data} />
@@ -19,5 +21,6 @@ export default function Categories() {
         <Dostoevsky profile = {Coelho} Author = 'Paulo Coelho' data= {Paulo_data} />
         <Dostoevsky profile = {Self} Author = 'Self Development' data= {Self_data} />
     </div>
+    </Suspense>
   )
 }

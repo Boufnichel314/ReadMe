@@ -1,4 +1,4 @@
-// import { Container } from '@mui/system'
+import {lazy, Suspense} from 'react';
 import { useSelector } from 'react-redux'
 import AnimatedPages from '../../Components/AnimatedPages'
 import Categories from '../../Components/Categories/Categories'
@@ -16,6 +16,7 @@ else{
   style.display = 'flex'
 }
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <AnimatedPages>
     <Container maxWidth = '80em' style = {{padding:'0', margin : '0'}}>
     <div className='Home_page' style = {style}>
@@ -34,6 +35,7 @@ else{
     </div>
     </Container>
     </AnimatedPages>
+    </Suspense>
   )
 }
 
