@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/ReadMe/static/css/main.33b7e7f6.css",
-    "main.js": "/ReadMe/static/js/main.990f46df.js",
+    "main.css": "/ReadMe/static/css/main.ffff698d.css",
+    "main.js": "/ReadMe/static/js/main.782865bd.js",
     "static/css/568.54ab395f.chunk.css": "/ReadMe/static/css/568.54ab395f.chunk.css",
     "static/js/568.20c1165e.chunk.js": "/ReadMe/static/js/568.20c1165e.chunk.js",
     "static/js/76.4d9e29ff.chunk.js": "/ReadMe/static/js/76.4d9e29ff.chunk.js",
+    "static/media/library-with-books-modified.jpg": "/ReadMe/static/media/library-with-books-modified.2511b1a96459cf8daf85.jpg",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/ReadMe/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
     "static/media/animal-farm.png": "/ReadMe/static/media/animal-farm.ca56b9ff7c842da43636.png",
     "static/media/La Maison biscornue.jpg": "/ReadMe/static/media/La Maison biscornue.e423574e804f849c7aa7.jpg",
@@ -72,14 +73,14 @@
     "static/media/الاخوة كرامازوف.jfif": "/ReadMe/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
-    "main.33b7e7f6.css.map": "/ReadMe/static/css/main.33b7e7f6.css.map",
-    "main.990f46df.js.map": "/ReadMe/static/js/main.990f46df.js.map",
+    "main.ffff698d.css.map": "/ReadMe/static/css/main.ffff698d.css.map",
+    "main.782865bd.js.map": "/ReadMe/static/js/main.782865bd.js.map",
     "568.54ab395f.chunk.css.map": "/ReadMe/static/css/568.54ab395f.chunk.css.map",
     "568.20c1165e.chunk.js.map": "/ReadMe/static/js/568.20c1165e.chunk.js.map",
     "76.4d9e29ff.chunk.js.map": "/ReadMe/static/js/76.4d9e29ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b7e7f6.css",
-    "static/js/main.990f46df.js"
+    "static/css/main.ffff698d.css",
+    "static/js/main.782865bd.js"
   ]
 }
