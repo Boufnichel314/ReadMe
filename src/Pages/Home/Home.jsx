@@ -1,10 +1,10 @@
-import {lazy, Suspense} from 'react';
 import { useSelector } from 'react-redux'
 import AnimatedPages from '../../Components/AnimatedPages'
 import Categories from '../../Components/Categories/Categories'
 import './home.css'
+import { pure } from 'recompose';
 import Container from '@mui/material/Container'
-export default function Home() {
+const Home = () => {
 const state = useSelector( state => state.userReducer.username )
 const style = {
   display: 'flex',
@@ -16,7 +16,6 @@ else{
   style.display = 'flex'
 }
   return (
-    <Suspense fallback={<div>Loading...</div>}>
     <AnimatedPages>
     <Container maxWidth = '80em' style = {{padding:'0', margin : '0'}}>
     <div className='Home_page' style = {style}>
@@ -35,9 +34,6 @@ else{
     </div>
     </Container>
     </AnimatedPages>
-    </Suspense>
   )
 }
-
-
-    
+export default pure(Home)

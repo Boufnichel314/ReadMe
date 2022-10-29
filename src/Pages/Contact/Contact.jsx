@@ -1,5 +1,6 @@
 import React, { useRef} from "react";
 import emailjs from "@emailjs/browser";
+import { pure } from 'recompose';
 import AnimatedPages from '../../Components/AnimatedPages'
 import { useAlert } from 'react-alert'
 import './contact.css'
@@ -63,4 +64,4 @@ const alert = useAlert()
   );
 };
 
-export default Contact;
+export default pure(Contact);

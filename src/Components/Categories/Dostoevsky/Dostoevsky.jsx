@@ -1,5 +1,6 @@
-import { useEffect, useState, lazy, Suspense } from 'react'
-import {  SwiperSlide } from "swiper/react";
+import { memo, useEffect, useState} from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { pure } from 'recompose';
 import { Pagination, Navigation } from "swiper";
 import './dostoevsky.css'
 import "swiper/css";
@@ -8,7 +9,7 @@ import "swiper/css/navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import useMediaQuery from '../../useMediaQuery'
-export default function Dostoevsky(props) {
+const Dostoevsky =  memo(({Author,profile,data}) => {
     const isMobile = useMediaQuery('(max-width: 768px)')
     const isDesktop = useMediaQuery('(min-width: 960px)');
     const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 960px)');
@@ -30,13 +31,11 @@ export default function Dostoevsky(props) {
             }
         }, [isMobile, isTablet, isDesktop]
     )
-    const Swiper = lazy(() => import("swiper/react").then((module) => ({ default: module.Swiper })));
   return (
-    <Suspense fallback={<div>Loading...</div>}>
     <div className='dostoevsky'>
         <div className="type">
-        <h1>{props.Author}</h1>
-        <LazyLoadImage src={props.profile}
+        <h1>{Author}</h1>
+        <LazyLoadImage src={profile}
         width={600} height={400}
         alt="Image Alt"
       />
@@ -52,7 +51,7 @@ export default function Dostoevsky(props) {
         className="mySwiper"
       >
         {
-            props.data.map((item, index) => {
+            data.map((item, index) => {
                 return (
                     <SwiperSlide key={index}>
                         <a href="https://wa.me/+212771487686">
@@ -72,6 +71,7 @@ export default function Dostoevsky(props) {
             )}
       </Swiper>
     </div>
-    </Suspense>
   )
 }
+)
+export default pure(Dostoevsky);

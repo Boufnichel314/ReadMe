@@ -1,8 +1,9 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { pure } from 'recompose';
 import AnimatedPages from '../../Components/AnimatedPages'
 import './offers.css'
-export default function Offers() {
+const Offers = () => {
   const state = useSelector( state => state.userReducer.username)
 const style = {
   display: 'flex',
@@ -23,3 +24,4 @@ else{
     </AnimatedPages>
   )
 }
+export default pure(Offers)
