@@ -58,7 +58,7 @@ else{
       <div className="background">
       <img className='img' src={require('../../images/cover.png')}  alt="Dostoevsky"/>
       </div> */}
-      <div className="contact-page">
+      <div className="contact-page" style = {style}>
         <div className="contact-form">
         <form ref={form} onSubmit={sendEmail}>
         <div className="input">
@@ -70,7 +70,7 @@ else{
         <div className="input">
         <textarea name="message" placeholder="رسالتك" />
         </div>
-        <div class="wrapper">
+        <div class="wrapper input">
         <input type="submit" value="ارسال" />
         </div>  
       </form>
