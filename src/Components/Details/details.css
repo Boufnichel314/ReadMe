@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px;
+    width: 30em;
     padding: 5px;
     margin: 5px 0;
     background-color: #000000;
@@ -10,27 +10,25 @@
     position: relative;
     font-family: "Montserrat", sans-serif;
     cursor: pointer;
-    /* z-index: 1000000; */
+    height: 30rem;
 }
-/* .details:hover {
-    background-color: white;
-    color: black;
-  } */
-
-  .details .detailsImg{
+.details .image{
+  height: 80%;
+  width: 100%;
+}
+  .details .image .detailsImg{
     border-radius: 10px;
     height: 100%;
+    width: 60%;
   }
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
   }
 .image{
     width: 100%;
     height: 600%;
-    /* border:2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +45,16 @@
 }
   @media (max-width: 550px) {
     .details {
-      width: 46%;
+      width: 15em;
     }
-
-    .details .detailsImg {
+    .details .image{
+      height: 80%;
+      width: 100%;
+    }
+    .details .image .detailsImg {
       width: 100%;
     }
     .title{
-        /* border: 2px solid red; */
         display: flex;
         justify-content: center;
         align-items: center;
