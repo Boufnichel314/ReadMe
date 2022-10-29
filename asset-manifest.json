@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/ReadMe/static/css/main.ffff698d.css",
-    "main.js": "/ReadMe/static/js/main.d70d40d3.js",
+    "main.css": "/ReadMe/static/css/main.0505ac83.css",
+    "main.js": "/ReadMe/static/js/main.713f9093.js",
     "static/css/568.54ab395f.chunk.css": "/ReadMe/static/css/568.54ab395f.chunk.css",
-    "static/js/568.20c1165e.chunk.js": "/ReadMe/static/js/568.20c1165e.chunk.js",
-    "static/js/76.4d9e29ff.chunk.js": "/ReadMe/static/js/76.4d9e29ff.chunk.js",
+    "static/js/568.ba68a007.chunk.js": "/ReadMe/static/js/568.ba68a007.chunk.js",
+    "static/css/848.f41e2003.chunk.css": "/ReadMe/static/css/848.f41e2003.chunk.css",
+    "static/js/848.1e461717.chunk.js": "/ReadMe/static/js/848.1e461717.chunk.js",
+    "static/css/359.19a94ed6.chunk.css": "/ReadMe/static/css/359.19a94ed6.chunk.css",
+    "static/js/359.992797dc.chunk.js": "/ReadMe/static/js/359.992797dc.chunk.js",
+    "static/css/100.91ced532.chunk.css": "/ReadMe/static/css/100.91ced532.chunk.css",
+    "static/js/100.4d4d8d42.chunk.js": "/ReadMe/static/js/100.4d4d8d42.chunk.js",
+    "static/js/250.a0853136.chunk.js": "/ReadMe/static/js/250.a0853136.chunk.js",
+    "static/js/947.82803529.chunk.js": "/ReadMe/static/js/947.82803529.chunk.js",
+    "static/js/76.4aa1c985.chunk.js": "/ReadMe/static/js/76.4aa1c985.chunk.js",
     "static/media/library-with-books-modified.jpg": "/ReadMe/static/media/library-with-books-modified.2511b1a96459cf8daf85.jpg",
     "static/media/By the River Piedra I Sat Down and Wept.jpg": "/ReadMe/static/media/By the River Piedra I Sat Down and Wept.41b11aca2fcb5d471779.jpg",
     "static/media/animal-farm.png": "/ReadMe/static/media/animal-farm.ca56b9ff7c842da43636.png",
@@ -73,14 +81,22 @@
     "static/media/الاخوة كرامازوف.jfif": "/ReadMe/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
-    "main.ffff698d.css.map": "/ReadMe/static/css/main.ffff698d.css.map",
-    "main.d70d40d3.js.map": "/ReadMe/static/js/main.d70d40d3.js.map",
+    "main.0505ac83.css.map": "/ReadMe/static/css/main.0505ac83.css.map",
+    "main.713f9093.js.map": "/ReadMe/static/js/main.713f9093.js.map",
     "568.54ab395f.chunk.css.map": "/ReadMe/static/css/568.54ab395f.chunk.css.map",
-    "568.20c1165e.chunk.js.map": "/ReadMe/static/js/568.20c1165e.chunk.js.map",
-    "76.4d9e29ff.chunk.js.map": "/ReadMe/static/js/76.4d9e29ff.chunk.js.map"
+    "568.ba68a007.chunk.js.map": "/ReadMe/static/js/568.ba68a007.chunk.js.map",
+    "848.f41e2003.chunk.css.map": "/ReadMe/static/css/848.f41e2003.chunk.css.map",
+    "848.1e461717.chunk.js.map": "/ReadMe/static/js/848.1e461717.chunk.js.map",
+    "359.19a94ed6.chunk.css.map": "/ReadMe/static/css/359.19a94ed6.chunk.css.map",
+    "359.992797dc.chunk.js.map": "/ReadMe/static/js/359.992797dc.chunk.js.map",
+    "100.91ced532.chunk.css.map": "/ReadMe/static/css/100.91ced532.chunk.css.map",
+    "100.4d4d8d42.chunk.js.map": "/ReadMe/static/js/100.4d4d8d42.chunk.js.map",
+    "250.a0853136.chunk.js.map": "/ReadMe/static/js/250.a0853136.chunk.js.map",
+    "947.82803529.chunk.js.map": "/ReadMe/static/js/947.82803529.chunk.js.map",
+    "76.4aa1c985.chunk.js.map": "/ReadMe/static/js/76.4aa1c985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffff698d.css",
-    "static/js/main.d70d40d3.js"
+    "static/css/main.0505ac83.css",
+    "static/js/main.713f9093.js"
   ]
 }
