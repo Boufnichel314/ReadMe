@@ -1,12 +1,12 @@
-import { useState, useEffect} from 'react';
+import { useState, useEffect, lazy, Suspense} from 'react';
 import useMediaQuery from 'beautiful-react-hooks/useMediaQuery';
 import './topnav.css'
+import { pure } from 'recompose';
 import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
-import Api from '../Axios/Api';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector} from 'react-redux';
 const Search = styled('div')(({ theme }) => ({
@@ -50,7 +50,8 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
   },
 }));
-export default function TopNav() {
+const Api = lazy(() => import('../Axios/Api'))
+const TopNav = () => {
   const isSmall = useMediaQuery('(max-width: 48rem)');
   const [searchh, setSearchh] = useState('');
   const [onKeyPress, setOnKeyPress] = useState('');
@@ -133,7 +134,10 @@ if(onKeyPress === 'Enter') dispatch(login);
             </div>
         </Toolbar>
     </Box>
+    <Suspense fallback={<div>Loading...</div>}>
     {onKeyPress === 'Enter' ? <Api searchValue={searchh} /> : null}
+    </Suspense>
     </div>
-  )
+  );
 }
+export default pure(TopNav);

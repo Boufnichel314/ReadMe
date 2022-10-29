@@ -1,6 +1,6 @@
 import React from 'react'
-
-export default function ImageItem(props) {
+import { pure } from 'recompose';
+const ImageItem = (props) => {
   return (
     <div>
         <img src={props.bookImage} alt={props.bookName} />
@@ -10,3 +10,4 @@ export default function ImageItem(props) {
     </div>
   )
 }
+export default pure(ImageItem);
