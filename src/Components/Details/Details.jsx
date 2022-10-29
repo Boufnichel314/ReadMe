@@ -1,7 +1,6 @@
 import React from 'react'
 import './details.css'
-import { pure } from 'recompose';
-const Details = ({bookName,bookImg}) => {
+export default function Details({bookName,bookImg}) {
   return (
     <a href="https://wa.me/+212771487686">
     <div className='details'>
@@ -15,4 +14,3 @@ const Details = ({bookName,bookImg}) => {
     </a>
   )
 }
-export default pure(Details);

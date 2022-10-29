@@ -1,6 +1,5 @@
 import { memo, useEffect, useState} from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { pure } from 'recompose';
 import { Pagination, Navigation } from "swiper";
 import './dostoevsky.css'
 import "swiper/css";
@@ -74,4 +73,4 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
   )
 }
 )
-export default pure(Dostoevsky);
+export default Dostoevsky;

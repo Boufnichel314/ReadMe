@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { pure } from 'recompose';
 const animations = {
   initial: { opacity: 0, x: 100 },
   animate: { opacity: 1, x: 0 },
@@ -20,4 +19,4 @@ const AnimatedPages = ({ children }) => {
   );
 };
 
-export default pure(AnimatedPages);
+export default AnimatedPages;

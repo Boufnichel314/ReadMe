@@ -1,7 +1,6 @@
 import { useState, useEffect, lazy, Suspense} from 'react';
 import useMediaQuery from 'beautiful-react-hooks/useMediaQuery';
-import './topnav.css'
-import { pure } from 'recompose';
+import './topnav.css';
 import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -51,7 +50,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 const Api = lazy(() => import('../Axios/Api'))
-const TopNav = () => {
+export default function TopNav(){
   const isSmall = useMediaQuery('(max-width: 48rem)');
   const [searchh, setSearchh] = useState('');
   const [onKeyPress, setOnKeyPress] = useState('');
@@ -140,4 +139,3 @@ if(onKeyPress === 'Enter') dispatch(login);
     </div>
   );
 }
-export default pure(TopNav);

@@ -23,7 +23,7 @@
     justify-content: space-between;
     align-items: center;
 }
-img {
+.LazyLoadImage {
     max-inline-size: 100%;
     block-size: auto;
     aspect-ratio: 1;
