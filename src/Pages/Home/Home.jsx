@@ -26,7 +26,6 @@ else{
             <p> <span> ريدمي </span>هي مكتبة لبيع كل الكتب بالعربية <br /> والفرنسية و الانجليزية <br /> و في جميع المدن المغربية</p>
           </div>
         <div className='Home_image'>
-        {/* <img src={require('../../images/lastdost2.png')}  alt="Dostoevsky"/> */}
         <LazyLoadImage className='LazyLoadImage' src={dost}
                             width={'100%'} height={'100%'}
                             effect="blur"
@@ -36,7 +35,7 @@ else{
       </div>
     </div>
     <div className="categories" style={style}>
-    <Categories/>
+    <Categories className='categories'/>
     </div>
     </Container>
     </AnimatedPages>
