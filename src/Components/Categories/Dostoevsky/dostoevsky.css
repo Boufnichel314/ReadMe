@@ -39,7 +39,7 @@
     width: 100%;
     height: 100%;
     max-height: 90%;
-    background-color: rgb(224, 216, 216);
+    background-color: #9b9693;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -57,40 +57,14 @@
     max-width: 100%;
     vertical-align: middle;
 }
-.book .book-info{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 1.1rem;
-}
-.book .book-info h1{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #000;
-    text-align: center;
-    font-family: 'Shadows Into Light', cursive;
-    letter-spacing: 2px;
-}
-.book h3{
-    font-size: 2rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    position: absolute;
-    top: 0;
-    background-color: rgb(227, 4, 4);
-    width: 100%;
-    height: 3rem;
-}
+
 
 /*media query*/
 @media screen and (max-width: 420px){
     .dostoevsky{
         flex-direction: column;
-        min-height: 50rem;
+        height: 50rem;
+        min-height: 20rem;
         border-radius: 30px;
     }
     .dostoevsky .type{
@@ -110,8 +84,7 @@
         margin-top: 2.4rem
     }
     .book{
-        height: 90%;
-        /* position: relative; */
+        height: 83%;
     }
     .book .book-info{
         height: 50px;
@@ -121,18 +94,22 @@
         font-size: 1rem;
     }
     .book .img{
-        height: 100%; ;
+        height: 100%;
     }
     .book:hover{
         border: none;
     }
 }
 @media screen and (max-width: 375px){
+    .dostoevsky{
+        height: 40rem;
+        min-height: 10rem;
+    }
     .dostoevsky .type h1{
         font-size: 1.4rem;
     }
     .book{
-        /* height: 97%; */
+        height: 100%;
     }
     .book .book-info{
         height: 50px;
@@ -142,13 +119,12 @@
         font-size: 1rem;
     }
     .book .img{
-        min-height: 100%;
+        height: 100%;
     }
 }
 @media screen and (max-width: 360px){
     .dostoevsky{
         flex-direction: column;
-        height: 480px;
         border-radius: 30px;
     }
     .dostoevsky .type{
@@ -181,5 +157,14 @@
     }
     .book .img{
         height: 240px;
+    }
+}
+@media screen and (max-height: 664px) {
+    .dostoevsky{
+        height: 40rem;
+        min-height: 10rem;
+    }
+    .book{
+        height: 69%;
     }
 }

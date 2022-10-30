@@ -36,6 +36,7 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
         <h1>{Author}</h1>
         <LazyLoadImage src={profile}
         width={600} height={400}
+        effect="blur"
         alt="Image Alt"
       />
         </div>
