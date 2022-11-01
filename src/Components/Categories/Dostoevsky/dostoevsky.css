@@ -108,6 +108,10 @@
     .dostoevsky .type h1{
         font-size: 1.4rem;
     }
+    .dostoevsky .type img{
+        width: 50%;
+        height: 70%;
+    }
     .book{
         height: 100%;
     }
@@ -134,18 +138,13 @@
     .dostoevsky .type h1{
         font-size: 1.3rem;
     }
-    .dostoevsky .type img{
-        width: 70%;
-        height: 80%;
+    .dostoevsky .type .profile{
+        
     }
     .dostoevsky .mySwiper{
         width: 100%;
         height: 80%;
         margin-top: 2.4rem
-    }
-    .book{
-        /* height: 97%; */
-
     }
     .book .book-info{
         height: 50px;
