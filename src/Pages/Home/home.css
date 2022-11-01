@@ -68,11 +68,19 @@
         font-size: 3rem;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 780px){
     .Home_container{
         flex-direction: column;
         justify-content: flex-start;
     }
+    .Home_description h1{
+        font-size: 8em;
+    }
+    .LazyLoadImage{
+        height: 60%;
+    }
+}
+@media screen and (max-width: 450px) {
     .Home_description h1{
         font-size: 5em;
     }
@@ -81,6 +89,13 @@
     }
     .Home_container p span{
         font-size: 2rem;
+    }
+    .LazyLoadImage{
+        max-inline-size: 100%;
+        block-size: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+        object-position: center;
     }
 }
 @media screen and (max-height: 664px) {
