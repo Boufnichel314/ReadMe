@@ -34,10 +34,12 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
     <div className='dostoevsky'>
         <div className="type">
         <h1>{Author}</h1>
-        <LazyLoadImage src={profile} className='profile'
+        {/* <LazyLoadImage src={profile} className='profile'
         width={600} height={400}
+        effect=""
         alt="Image Alt"
-      />
+      /> */}
+      <img src={profile} alt="" loading="lazy" />
         </div>
         <Swiper
         slidesPerView={nmbr_slides}
