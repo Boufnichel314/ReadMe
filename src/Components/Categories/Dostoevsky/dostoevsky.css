@@ -178,9 +178,6 @@
     .dostoevsky .type h1{
         font-size: 1.3rem;
     }
-    .dostoevsky .type .profile{
-        
-    }
     .dostoevsky .mySwiper{
         width: 100%;
         height: 80%;
@@ -198,7 +195,7 @@
         height: 240px;
     }
 }
-@media screen and (max-height: 664px) {
+@media screen and (max-height: 1200px) {
     .dostoevsky{
         height: 40rem;
         min-height: 10rem;
@@ -206,4 +203,25 @@
     .book{
         height: 69%;
     }
+    .book .img{
+        min-height: 400px;
+    }
+    .dostoevsky .type img{
+        width: 50%;
+        height: 50%;
+    }
+}
+@media screen and (max-height: 669px){
+    .book .img{
+        min-height: 300px;
+    }
+    .dostoevsky{
+        height: 30rem;
+        min-height: 10rem;
+    }
+    .dostoevsky .type img{
+        width: 70%;
+        height: 40%;
+    }
+
 }
