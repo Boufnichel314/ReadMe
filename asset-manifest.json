@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReadMe/static/css/main.0505ac83.css",
-    "main.js": "/ReadMe/static/js/main.50abb30d.js",
-    "static/css/206.27e1b983.chunk.css": "/ReadMe/static/css/206.27e1b983.chunk.css",
+    "main.js": "/ReadMe/static/js/main.f72374e7.js",
+    "static/css/206.8a094563.chunk.css": "/ReadMe/static/css/206.8a094563.chunk.css",
     "static/js/206.fc264cc3.chunk.js": "/ReadMe/static/js/206.fc264cc3.chunk.js",
     "static/css/646.7586d454.chunk.css": "/ReadMe/static/css/646.7586d454.chunk.css",
     "static/js/646.2e14c48b.chunk.js": "/ReadMe/static/js/646.2e14c48b.chunk.js",
@@ -80,14 +80,15 @@
     "static/media/Goerge.jpg": "/ReadMe/static/media/Goerge.7ac0588225b56698cf45.jpg",
     "static/media/the gambler.jpg": "/ReadMe/static/media/the gambler.7bf041da53b8b392ffff.jpg",
     "static/media/ابنة القس.jpg": "/ReadMe/static/media/ابنة القس.c152aeb949281a0b7cf3.jpg",
+    "static/media/README_VB.png": "/ReadMe/static/media/README_VB.c0d8bdf66c9e770b689c.png",
     "static/media/12 règles pour une vie.jpg": "/ReadMe/static/media/12 règles pour une vie.4c5c134a1efdd2c1434d.jpg",
     "static/media/Comment se faire des amis.jpg": "/ReadMe/static/media/Comment se faire des amis.d747d6feea643588027a.jpg",
     "static/media/الاخوة كرامازوف.jfif": "/ReadMe/static/media/الاخوة كرامازوف.9a26d5c63e0932dbdf46.jfif",
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
     "main.0505ac83.css.map": "/ReadMe/static/css/main.0505ac83.css.map",
-    "main.50abb30d.js.map": "/ReadMe/static/js/main.50abb30d.js.map",
-    "206.27e1b983.chunk.css.map": "/ReadMe/static/css/206.27e1b983.chunk.css.map",
+    "main.f72374e7.js.map": "/ReadMe/static/js/main.f72374e7.js.map",
+    "206.8a094563.chunk.css.map": "/ReadMe/static/css/206.8a094563.chunk.css.map",
     "206.fc264cc3.chunk.js.map": "/ReadMe/static/js/206.fc264cc3.chunk.js.map",
     "646.7586d454.chunk.css.map": "/ReadMe/static/css/646.7586d454.chunk.css.map",
     "646.2e14c48b.chunk.js.map": "/ReadMe/static/js/646.2e14c48b.chunk.js.map",
@@ -106,6 +107,6 @@
   },
   "entrypoints": [
     "static/css/main.0505ac83.css",
-    "static/js/main.50abb30d.js"
+    "static/js/main.f72374e7.js"
   ]
 }
