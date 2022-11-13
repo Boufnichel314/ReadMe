@@ -75,7 +75,7 @@
 }
 @media screen and (max-height: 669px){
     .book .img{
-        min-height: 300px;
+        min-height:400px;
     }
     .dostoevsky{
         height: 30rem;
@@ -92,8 +92,8 @@
         min-height: 10rem;
     }
     .dostoevsky .type img{
-        width: 55%;
-        height: 50%;
+        width: 17em;
+        height: 17em;
     }
 
 }
@@ -164,6 +164,7 @@
     }
     .dostoevsky .type {
         width: 30%;
+        padding-right: 3px;
     }
     .book{
         height: 80%;
@@ -178,9 +179,8 @@
         height: 100%;
     }
 }
-@media screen and (max-width: 620px){
+@media screen and (max-width: 614px){
     .book{
-        
         height: 90%;
     }
     .book .img{
@@ -190,7 +190,7 @@
         min-height: 70%;
     }
     .dostoevsky{
-        height:36em;
+        height:30em;
         padding-top: 4em;
     }
 }
