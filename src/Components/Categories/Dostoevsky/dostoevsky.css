@@ -69,8 +69,8 @@
         min-height: 400px;
     }
     .dostoevsky .type img{
-        width: 70%;
-        height: 50%;
+        width: 20em;
+        height: 16em;
     }
 }
 @media screen and (max-height: 669px){
