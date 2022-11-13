@@ -86,18 +86,29 @@
         height: 40%;
     }
 
+}@media screen and (max-width: 1920px){
+    .dostoevsky{
+        height: 40rem;
+        min-height: 10rem;
+    }
+    .dostoevsky .type img{
+        width: 55
+        %;
+        height: 50%;
+    }
+
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1430px){
     .dostoevsky .type img{
         width: 17em;
         height: 17em;
+        
     }
     .book{
         width: 100%;
         min-width: 100% !important;
     }
     .book .img{
-
         width: 100%;
         min-width: 100%;
     }
@@ -105,21 +116,42 @@
 
 }
 @media screen and (max-width: 1320px){
+    .dostoevsky{
+        height: 30rem;
+        min-height: 20rem;
+    }
     .dostoevsky .type img{
-        width: 17em;
-        height: 17em;
+        width: 15em;
+        height: 15em;
     }
     .book{
-        width: 100%;
-        min-width: 100% !important;
+        width: 30px;
+        height: 70em;
+        min-height: 30em;
     }
     .book .img{
-
-        width: 100%;
+        width: 2px;
         min-width: 100%;
+        height: 23em;
+        min-height: 22em;
     }
 }
+@media screen and (max-width: 1000px){
+    .dostoevsky{
+        height: 30rem;
+        min-height: 10rem;
+    }
+    .book .img{
+        height: 23em;
+        min-height: 22em;
+    }
+    
+}
 @media screen and (max-width: 860px){
+    .dostoevsky{
+        height: 30rem;
+        min-height: 10rem;
+    }
     .dostoevsky .type img{
         width: 13em;
         height: 13em;
@@ -146,9 +178,7 @@
     .dostoevsky{
         height: 100%;
     }
-
 }
-
 @media screen and (max-width: 620px){
     .book{
         
@@ -165,7 +195,6 @@
         padding-top: 4em;
     }
 }
-
 /*media query*/
 @media screen and (max-width: 420px){
     .dostoevsky{

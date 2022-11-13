@@ -10,8 +10,9 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import useMediaQuery from '../../useMediaQuery'
 const Dostoevsky =  memo(({Author,profile,data}) => {
     const isMobile = useMediaQuery('(max-width: 768px)')
-    const isDesktop = useMediaQuery('(min-width: 960px)');
-    const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 960px)');
+    const isDesktop = useMediaQuery('(min-width: 1000px)');
+    //960px
+    const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 1000px)');
     const [nmbr, setNmbr] = useState(1);
     const [nmbr_slides, setNmbr_slides] = useState(1);
     useEffect(
