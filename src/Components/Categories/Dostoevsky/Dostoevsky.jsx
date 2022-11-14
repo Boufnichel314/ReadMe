@@ -31,15 +31,11 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
             }
         }, [isMobile, isTablet, isDesktop]
     )
+
   return (
     <div className='dostoevsky'>
         <div className="type">
         <h1>{Author}</h1>
-        {/* <LazyLoadImage src={profile} className='profile'
-        width={600} height={400}
-        effect=""
-        alt="Image Alt"
-      /> */}
       <img src={profile} alt="" loading="lazy" />
         </div>
         <Swiper
@@ -57,7 +53,7 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
                 return (
                     <SwiperSlide key={index}>
                         <a href="https://wa.me/+212771487686">
-                        <div className="book" >
+                        <div className="book">
                             <LazyLoadImage className='img' src={item.profile}
                             width={'100%'} height={'100%'}
                             effect="blur"
