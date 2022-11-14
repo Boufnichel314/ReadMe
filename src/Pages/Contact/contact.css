@@ -169,6 +169,6 @@ form .input textarea:valid{
 /*media query*/
 @media screen and (max-width: 380px){
     .contact-form .icons{
-        bottom: -2em;
+        bottom: -7em;
     }
 }

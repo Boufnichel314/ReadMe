@@ -4,6 +4,7 @@ import { Pagination, Navigation } from "swiper";
 import './dostoevsky.css'
 import "swiper/css";
 import "swiper/css/pagination";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import "swiper/css/navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -59,8 +60,10 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
                             effect="blur"
                             alt="Image Alt"
                              />
-                            <div className="book-info">
-                            </div>
+                            {/* <div className="whts">
+                            <WhatsAppIcon className="icon-whts"/>
+                            <h3 className='h3-whts'>Go to WhatsApp</h3>
+                            </div> */}
                         </div>
                         </a>
                     </SwiperSlide>
