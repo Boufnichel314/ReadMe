@@ -60,10 +60,6 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
                             effect="blur"
                             alt="Image Alt"
                              />
-                            {/* <div className="whts">
-                            <WhatsAppIcon className="icon-whts"/>
-                            <h3 className='h3-whts'>Go to WhatsApp</h3>
-                            </div> */}
                         </div>
                         </a>
                     </SwiperSlide>
