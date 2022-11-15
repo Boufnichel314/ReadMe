@@ -77,7 +77,7 @@
         font-size: 8em;
     }
     .LazyLoadImage{
-        height: 60%;
+        height: 50%;
     }
 }
 @media screen and (max-width: 450px) {
@@ -91,7 +91,8 @@
         font-size: 2rem;
     }
     .LazyLoadImage{
-        max-inline-size: 100%;
+        margin-top: 10rem;
+        max-inline-size: 77%;
         block-size: auto;
         aspect-ratio: 1;
         object-fit: cover;
@@ -100,13 +101,13 @@
 }
 @media screen and (max-height: 664px) {
     .LazyLoadImage{
-       margin-bottom: 2rem;
-        padding-bottom: 2rem;
+        margin-bottom: 4rem;
+        padding-bottom: 5rem;
         height: 80%;
         max-height: 82%;
     }
     .Home_image{
-        min-height: 50%;
+        min-height: 32%;
     }
     .categories{
         margin-top: 2rem;
@@ -114,6 +115,6 @@
 }
 @media screen and (max-height: 556px){
     .Home_image{
-        min-height: 37%;
+        min-height: 26%;
     }
 } 
