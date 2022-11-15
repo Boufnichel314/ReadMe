@@ -4,7 +4,6 @@ import { Pagination, Navigation } from "swiper";
 import './dostoevsky.css'
 import "swiper/css";
 import "swiper/css/pagination";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import "swiper/css/navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -71,4 +70,4 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
   )
 }
 )
-export default Dostoevsky;
+export default memo(Dostoevsky);

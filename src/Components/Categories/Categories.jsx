@@ -1,4 +1,4 @@
-import {lazy, Suspense} from 'react';
+import {lazy, Suspense, memo} from 'react';
 import './categories.css'
 import dost from '../Categories/Dostoevsky/images/dostoevsky/dostoevsky_photo.jpg'
 import Agatha from '../Categories/Dostoevsky/images/Agatha/Agatha_Christie.png'
@@ -24,3 +24,5 @@ export default function Categories() {
     </Suspense>
   )
 }
+//export CategoriesMemo
+export const CategoriesMemo = memo(Categories)

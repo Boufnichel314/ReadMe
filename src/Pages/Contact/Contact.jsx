@@ -1,4 +1,4 @@
-import React, { useRef} from "react";
+import React, { useRef, memo} from "react";
 import emailjs from "@emailjs/browser";
 import AnimatedPages from '../../Components/AnimatedPages'
 import Container from '@mui/material/Container';
@@ -78,3 +78,4 @@ const alert = useAlert()
 };
 
 export default Contact;
+export const ContactMemo = memo(Contact)

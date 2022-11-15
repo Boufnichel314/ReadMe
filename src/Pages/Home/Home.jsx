@@ -1,6 +1,8 @@
 import { useSelector } from 'react-redux'
+//import memo
+import { memo } from 'react'
 import AnimatedPages from '../../Components/AnimatedPages'
-import Categories from '../../Components/Categories/Categories'
+import CategoriesMemo from '../../Components/Categories/Categories'
 import './home.css'
 import dost from '../../images/lastdost2.png';
 import Container from '@mui/material/Container'
@@ -35,9 +37,11 @@ else{
       </div>
     </div>
     <div className="categories" style={style}>
-    <Categories className='categories'/>
+    <CategoriesMemo className='categories'/>
     </div>
     </Container>
     </AnimatedPages>
   )
 }
+//HomeMemo
+export const HomeMemo = memo(Home)

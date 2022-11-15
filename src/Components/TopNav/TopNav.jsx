@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense} from 'react';
+import { useState, useEffect, lazy, Suspense, memo} from 'react';
 import useMediaQuery from 'beautiful-react-hooks/useMediaQuery';
 import './topnav.css';
 import { styled, alpha } from '@mui/material/styles';
@@ -139,3 +139,4 @@ if(onKeyPress === 'Enter') dispatch(login);
     </div>
   );
 }
+export const TopNavMemo = memo(TopNav);
