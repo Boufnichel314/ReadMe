@@ -30,6 +30,39 @@
     border-left: 3px solid #321511;
     font-family: 'Rajdhani', sans-serif;
 }
+.button-wtsp1{
+    position: absolute;
+    top:50%;
+    text-decoration: none;
+}
+
+.button-wtsp{
+    
+    
+    height: 50px;
+    width: 200px;
+    border-radius: 0px;
+    border: 0px solid white;
+    color:#ffffff;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.wts-icon{
+    font-size: 1.2em;
+    padding-right: 5px;
+}
+.button-wtsp:hover{
+    background-color: #ffffff;
+    color: #35ab14;
+    border-color: green;
+    
+}
 .dostoevsky .mySwiper{
     width: 70%;
     height: 100%;
@@ -71,6 +104,18 @@
     .dostoevsky .type img{
         width: 20em;
         height: 16em;
+    }
+    .button-wtsp{
+    
+    
+        height: 50px;
+        width: 140px;
+        font-size: 1.3em;
+
+    }
+    .wts-icon{
+        font-size: 1em;
+        padding-right: 5px;
     }
 }
 @media screen and (max-height: 669px){
@@ -168,6 +213,18 @@
         height: 18em;
         min-height: 18em;
     }
+    .button-wtsp{
+    
+    
+        height: 40px;
+        width: 120px;
+        font-size: 1.3em;
+
+    }
+    .wts-icon{
+        font-size: 1em;
+        padding-right: 5px;
+    }
 }
 @media screen and (max-width: 1000px){
     .dostoevsky{
@@ -192,6 +249,18 @@
     .book .img{
         height: 27rem;
         min-height: 15rem;
+    }
+    .button-wtsp{
+    
+    
+        height: 40px;
+        width: 150px;
+        font-size: 1.3em;
+
+    }
+    .wts-icon{
+        font-size: 1em;
+        padding-right: 5px;
     }
 }
 @media screen and (max-width: 767px){

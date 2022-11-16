@@ -1,13 +1,15 @@
-import { memo, useEffect, useState} from 'react'
+import { memo, useEffect, useState,useRef} from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import './dostoevsky.css'
 import "swiper/css";
 import "swiper/css/pagination";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import "swiper/css/navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import useMediaQuery from '../../useMediaQuery'
+import {motion} from 'framer-motion'
 const Dostoevsky =  memo(({Author,profile,data}) => {
     const isMobile = useMediaQuery('(max-width: 768px)')
     const isDesktop = useMediaQuery('(min-width: 1000px)');
@@ -31,6 +33,10 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
             }
         }, [isMobile, isTablet, isDesktop]
     )
+    const [style, setStyle] = useState({opacity:0,zindex:30});
+    const [Index, SetIndex] = useState(0);
+    
+    
 
   return (
     <div className='dostoevsky'>
@@ -52,15 +58,39 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
             data.map((item, index) => {
                 return (
                     <SwiperSlide key={index}>
-                        <a href="https://wa.me/+212771487686">
-                        <div className="book">
+                        
+                        <motion.div className="book" 
+                        whileHover={{}}
+                        onMouseEnter={e => {
+                            SetIndex(index);
+                            setStyle({opacity:1,zindex:0});
+                        }}
+                        onMouseLeave={e => {
+                            setStyle({opacity:0,zindex:30})
+                        }}
+                        >
                             <LazyLoadImage className='img' src={item.profile}
                             width={'100%'} height={'100%'}
                             effect="blur"
                             alt="Image Alt"
                              />
-                        </div>
-                        </a>
+                             
+                            {
+                                //test to show only for one index
+                                index === Index ? 
+                                <motion.a href="https://wa.me/+212771487686" className='button-wtsp1' animate={{opacity:style.opacity,zIndex:style.zindex}}>
+                                
+                                <motion.div initial={{backgroundColor:'#35ab14',borderColor:'#ffffff',color:'#ffffff'}}
+                                 whileHover={{scale:1.1,backgroundColor:'#ffffff',borderColor:'#35ab14',color:'#35ab14'}}
+                                  className='button-wtsp'>
+                                    <WhatsAppIcon className='wts-icon'/>WhatsApp
+                                </motion.div>
+                             </motion.a>
+                             : null
+                            }
+                             
+                        </motion.div>
+                        
                     </SwiperSlide>
                 )
             }
@@ -70,4 +100,4 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
   )
 }
 )
-export default memo(Dostoevsky);
+export default Dostoevsky;
