@@ -1,3 +1,4 @@
+import { Container } from '@mui/material'
 import React from 'react'
 import { useSelector } from 'react-redux'
 import AnimatedPages from '../../Components/AnimatedPages'
@@ -15,11 +16,13 @@ else{
 }
   return (
     <AnimatedPages>
-    <div className='containerr' stytle = {style}>
+    <Container maxWidth = '80em' style = {{padding:'0', margin : '0'}}>
+    <div className='offers_page' stytle = {style}>
       <div className='offers'>
-      <img className='img' src={require('../../images/Nothing for now.jpg')}  alt="Dostoevsky"/>
+      {/* <img className='img' src={require('../../images/@Readme314 (1).jpg')}  alt="Dostoevsky"/> */}
       </div>
     </div>
+    </Container>
     </AnimatedPages>
   )
 }

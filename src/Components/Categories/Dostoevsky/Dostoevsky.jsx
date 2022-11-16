@@ -34,7 +34,7 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
         }, [isMobile, isTablet, isDesktop]
     )
     const [style, setStyle] = useState({opacity:0,zindex:30});
-    const [Index, SetIndex] = useState(0);
+    const [Index, SetIndex] = useState(6);
     
     
 
