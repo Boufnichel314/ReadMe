@@ -37,8 +37,6 @@
 }
 
 .button-wtsp{
-    
-    
     height: 50px;
     width: 200px;
     border-radius: 0px;
@@ -300,6 +298,31 @@
         height:30em;
         padding-top: 4em;
     }
+    .button-wtsp1{
+        margin-left: 1rem;
+    }
+    .button-wtsp{
+        height: 40px;
+        width: 150px;
+        font-size: 1.3em;
+    }
+    .wts-icon{
+        font-size: 1em;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 470px){
+    .button-wtsp{
+        height: 40px;
+        width: 150px;
+        font-size: 1.3em;
+    }
+    .button-wtsp{
+        height: 35px;
+        width: 136px;
+        font-size: 1.3em;
+    }
+    
 }
 /*media query*/
 @media screen and (max-width: 420px){
@@ -373,7 +396,7 @@
 }
 @media screen and (max-width: 360px){
     .dostoevsky{
-        height: 38rem;
+        height: 37rem;
         min-height: 10rem;
         flex-direction: column;
         border-radius: 30px;
@@ -399,8 +422,21 @@
         font-size: 0.8rem;
     }
     .book .img{
-        height: 19em;
+        height: 18em;
         min-height: 10rem;
+    }
+    .button-wtsp1{
+        margin-left: 1rem;
+        font-size: 1.2rem !important;
+    }
+    .button-wtsp{
+        height: 30px;
+        width: 130px;
+        font-size: 1.3em;
+    }
+    .wts-icon{
+        font-size: 1em;
+        padding-right: 5px;
     }
 }
 @media screen and (max-width: 320px){
@@ -411,7 +447,20 @@
         border-radius: 30px;
     }
     .book .img{
-        height: 19rem;
+        height: 18rem;
         min-height: 10rem;
+    }
+    .button-wtsp1{
+        margin-left: 1rem;
+        font-size: 1rem !important;
+    }
+    .button-wtsp{
+        height: 20px;
+        width: 110px;
+        font-size: 1.3em;
+    }
+    .wts-icon{
+        font-size: 1em;
+        padding-right: 5px;
     }
 }
