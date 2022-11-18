@@ -53,5 +53,5 @@ To run this project, you will need to add your own environment variables to your
 
 ## Screenshots
 
-![App Screenshot]('./src/images/Screenshot from 2022-11-18 20-48-51.png')
+![](Screens/Home.png)
 
