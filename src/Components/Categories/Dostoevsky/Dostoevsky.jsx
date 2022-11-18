@@ -52,6 +52,7 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
         loopFillGroupWithBlank={true}
         navigation={true}
         modules={[Pagination, Navigation]}
+        className="mySwiper"
       >
         {
             data.map((item, index) => {
