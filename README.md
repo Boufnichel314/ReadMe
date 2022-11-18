@@ -53,5 +53,5 @@ To run this project, you will need to add your own environment variables to your
 
 ## Screenshots
 
-![](Screens/Home.png)
+![Screenshot example](Screens/Home.png)
 
