@@ -1,6 +1,7 @@
 import { memo, useEffect, useState,useRef} from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
+import 'swiper/css/autoplay';
 import './dostoevsky.css'
 import "swiper/css";
 import "swiper/css/pagination";
@@ -51,7 +52,10 @@ const Dostoevsky =  memo(({Author,profile,data}) => {
         loop={false}
         loopFillGroupWithBlank={true}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
+        onSlideChange={() => console.log('slide change')}
+        //add autoplay
+        autoplay={{ delay: 3500, disableOnInteraction: false}}
         className="mySwiper"
       >
         {
