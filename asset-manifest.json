@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReadMe/static/css/main.0505ac83.css",
-    "main.js": "/ReadMe/static/js/main.5a69261b.js",
-    "static/css/206.8a094563.chunk.css": "/ReadMe/static/css/206.8a094563.chunk.css",
+    "main.js": "/ReadMe/static/js/main.8ffa3e01.js",
+    "static/css/206.a2c2cee2.chunk.css": "/ReadMe/static/css/206.a2c2cee2.chunk.css",
     "static/js/206.4833dcc1.chunk.js": "/ReadMe/static/js/206.4833dcc1.chunk.js",
     "static/css/646.388b501c.chunk.css": "/ReadMe/static/css/646.388b501c.chunk.css",
     "static/js/646.d8f556e4.chunk.js": "/ReadMe/static/js/646.d8f556e4.chunk.js",
@@ -35,7 +35,6 @@
     "static/media/Le Crime.jpg": "/ReadMe/static/media/Le Crime.961f3c76f6466f230cb2.jpg",
     "static/media/alchimiste.jpg": "/ReadMe/static/media/alchimiste.5164499412f9c0e9ab8d.jpg",
     "static/media/La puissance de la pensée positive.jpg": "/ReadMe/static/media/La puissance de la pensée positive.2ae649ed94d5dd170fe1.jpg",
-    "static/media/README.png": "/ReadMe/static/media/README.79c8262419135b850c9d.png",
     "static/media/Agatha_Christie.png": "/ReadMe/static/media/Agatha_Christie.49452e008a6ead2aebad.png",
     "static/media/@Readme314 (1).jpg": "/ReadMe/static/media/@Readme314 (1).3e2d7062bc30f0852439.jpg",
     "static/media/من حرك قطعة الجبن الخاصة بي؟.jpg": "/ReadMe/static/media/من حرك قطعة الجبن الخاصة بي؟.7091e2f88ac2872607c2.jpg",
@@ -89,8 +88,8 @@
     "static/media/الابله.jfif": "/ReadMe/static/media/الابله.5f614159a388e7b9ae9d.jfif",
     "index.html": "/ReadMe/index.html",
     "main.0505ac83.css.map": "/ReadMe/static/css/main.0505ac83.css.map",
-    "main.5a69261b.js.map": "/ReadMe/static/js/main.5a69261b.js.map",
-    "206.8a094563.chunk.css.map": "/ReadMe/static/css/206.8a094563.chunk.css.map",
+    "main.8ffa3e01.js.map": "/ReadMe/static/js/main.8ffa3e01.js.map",
+    "206.a2c2cee2.chunk.css.map": "/ReadMe/static/css/206.a2c2cee2.chunk.css.map",
     "206.4833dcc1.chunk.js.map": "/ReadMe/static/js/206.4833dcc1.chunk.js.map",
     "646.388b501c.chunk.css.map": "/ReadMe/static/css/646.388b501c.chunk.css.map",
     "646.d8f556e4.chunk.js.map": "/ReadMe/static/js/646.d8f556e4.chunk.js.map",
@@ -110,6 +109,6 @@
   },
   "entrypoints": [
     "static/css/main.0505ac83.css",
-    "static/js/main.5a69261b.js"
+    "static/js/main.8ffa3e01.js"
   ]
 }
