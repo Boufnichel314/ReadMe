@@ -162,20 +162,6 @@
         align-items: center;
         /* border: 2px solid red; */
     }
-    .logo-mobile{
-        background-image: url('../../images/README.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-bottom: 0.2rem;
-        position: absolute;
-        left:0.5rem;
-        bottom: 0.3rem;
-        z-index: 100;
-    }
     .social{
         background-color: #eeb93b;
         height: 1.5rem;
