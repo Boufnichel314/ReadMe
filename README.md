@@ -5,7 +5,7 @@ An online library where you can buy some books with hight quality and get as soo
 
 ## Demo
 
-https://boufnichel314.github.io/ReadMe/
+view the web app in [Readme](https://boufnichel314.github.io/ReadMe/)
 
 
 ## Installation
@@ -15,6 +15,7 @@ git clone https://github.com/Boufnichel314/ReadMe.git
 ```bash
   
   cd ReadMe
+  npm install <!---to install all modules--->
   npm start
 ```
     
@@ -40,7 +41,7 @@ git clone https://github.com/Boufnichel314/ReadMe.git
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### Emailjs React API
+## Emailjs React API
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -53,7 +54,9 @@ To run this project, you will need to add your own environment variables to your
 
 ## Screenshots and logo
 
-![Logo](src/images/README.png)
-
 ![Screenshot example](src/images/Home.png)
+
+## Tech Stack
+
+**Client:** ReactJs, Redux, materialUI, Styled components, axios, swiper, 
 
