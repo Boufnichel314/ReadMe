@@ -53,5 +53,9 @@ To run this project, you will need to add your own environment variables to your
 
 ## Screenshots
 
+<<<<<<< HEAD
 ![](src/images/Home.png)
+=======
+![Screenshot example](Screens/Home.png)
+>>>>>>> 81cee4f020a96eeec7a6827aa4ad59a263536e61
 
