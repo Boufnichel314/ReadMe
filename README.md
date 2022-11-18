@@ -51,10 +51,9 @@ git clone https://github.com/Boufnichel314/ReadMe.git
 To run this project, you will need to add your own environment variables to your .env file
 
 
-## Screenshots
+## Screenshots and logo
 
-<<<<<<< HEAD
-![](src/images/Home.png)
-=======
+![Logo](src/images/README.png)
+
 ![Screenshot example](src/images/Home.png)
 
