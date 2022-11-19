@@ -15,7 +15,7 @@ git clone https://github.com/Boufnichel314/ReadMe.git
 ```bash
   
   cd ReadMe
-  npm install <!---to install all modules--->
+  npm install
   npm start
 ```
     
@@ -58,5 +58,5 @@ To run this project, you will need to add your own environment variables to your
 
 ## Tech Stack
 
-**Client:** ReactJs, Redux, materialUI, Styled components, axios, swiper, 
+**Client:** ReactJs, Redux, materialUI, Styled components, axios, swiper
 
