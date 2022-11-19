@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import {lazy, Suspense, useState, useEffect, CSSProperties} from 'react';
 import { Container } from '@mui/material';
 import { AnimatePresence } from "framer-motion";
@@ -31,7 +31,7 @@ function App() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
     <Provider store = {store}>
-    <BrowserRouter>
+    <HashRouter>
     
       <div className="App">
       {
@@ -58,7 +58,7 @@ function App() {
        }
            
     </div>
-    </BrowserRouter>
+    </HashRouter>
     </Provider>
     </Suspense>
   )
